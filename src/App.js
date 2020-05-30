@@ -188,7 +188,7 @@ var projects = [
       },
       {
         h: "Due Credit",
-        p: "Pack Van uses art assets made by the lovely Synty Studios."
+        p: "Pack Van uses art assets made by Synty Studios."
       },
     ],
   },
@@ -342,8 +342,8 @@ var projects = [
     cover: "GEO-1.png",
     article: [
       {
-        h: "Algorithms Are Interesting",
-        p: "Computational Geometry was one of my favorite classes. I enjoy geometry, vector math, and mesh processing (see Column Climbers, above). This class had some of the most interesting algorithms and has earned a spot on my portfolio. This summary is a bit more technical than the rest.",
+        h: "Love Me Some Geometry",
+        p: "Computational Geometry was one of my favorite classes. I really enjoy geometry, vector math, and mesh processing. This class had some of the most interesting algorithms and has earned a spot on my portfolio. This summary is a bit more technical than the others.",
       },
       {
         h: "Points to Polys to Triangles",
@@ -516,22 +516,22 @@ function Link(props){
     return null;
   if(props.store === "googleplay"){
     return(
-      <a href={props.address}><img className="badge prepadded" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
+      <a className="foreground" href={props.address}><img className="badge prepadded" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
     );
   }
   else if(props.store === "microsoft"){
     return(
-      <a href={props.address}><img className="badge" alt="Get it from Microsoft" src="https://assets.windowsphone.com/85864462-9c82-451e-9355-a3d5f874397a/English_get-it-from-MS_InvariantCulture_Default.png"/></a>
+      <a className="foreground" href={props.address}><img className="badge foreground" alt="Get it from Microsoft" src="https://assets.windowsphone.com/85864462-9c82-451e-9355-a3d5f874397a/English_get-it-from-MS_InvariantCulture_Default.png"/></a>
     );
   }
   else if(props.store === "appstore"){
     return(
-      <a href={props.address}><img className="badge" alt="" src={require("./images/badges/Download_on_the_App_Store_Badge_US-UK_135x40.svg")}/></a>
+      <a className="foreground" href={props.address}><img className="badge foreground" alt="" src={require("./images/badges/Download_on_the_App_Store_Badge_US-UK_135x40.svg")}/></a>
     );
   }
   else{
     return(
-      <a className="badge alt" href={props.address}>{props.alt}</a>
+      <a className="foreground" className="badge alt foreground" href={props.address}>{props.alt}</a>
     );
   }
 }
@@ -544,17 +544,14 @@ function closeCard(){
 }
 $(function(){
   $(".card").click(function(){
-    // if(!$(this).hasClass("modal")){
       closeCard();
       $(this).next(".content").addClass("active");
 
       var cardTitle = ''+$(this).find('.cover').find('h3').text();
-      //console.log(cardTitle);
       window.ga('send','event','card','click', cardTitle);
 
       $("body").addClass("noscroll");
       $("#backdrop").addClass("active");
-    //}
   });
   $(".button").click(function(){
       var buttonName = ''+$(this).text();
@@ -563,7 +560,6 @@ $(function(){
   });
   $(".badge:not(.alt)").click(function(){
       var badgeName = 'Store Badge: '+$(this).parent().prop('href');
-      //console.log(badgeName);
       window.ga('send','event','badge','click', badgeName);
   });
 });
@@ -571,7 +567,7 @@ $(function(){
 function Button(props){
   return(
     <div className="buttonbox">
-    <a className={"button shadow3D " + (props.Twitter ? "twitter" : "")} href={props.link}>{props.text}</a>
+    <a className={"button foreground shadow3D " + (props.Twitter ? "twitter" : "")} href={props.link}>{props.text}</a>
     </div>
   );
 }
@@ -580,7 +576,7 @@ function Card(props){
   var p = projects.find(function(proj){return proj.sku === props.sku; });
   return(
     <div className="cardcontainer">
-        <div className="card silver rounded16 shadow3D lightborder">
+        <div className="card foreground rounded16 shadow3D lightborder">
           {p.banner && <Banner banner={p.banner}/>}
           <div className="roundedmask rounded16">
             <Cover project={p}/>
@@ -613,10 +609,10 @@ function Cover(props){
   return(
     <div className="cover">
       <img className="thumb" alt="" src={require("./images/products/screens/" + p.cover)}/>
-      <div className="title">
+      <div className="cover-details-container">
         <h4>{p.subtitle}</h4>
         <h3>{p.title}</h3>
-        {p.icon && <img className="icon lightborder" alt="" src={require("./images/products/icons/" + p.sku + ".png")}/>}
+        {p.icon && <img className="app-icon lightborder" alt="" src={require("./images/products/icons/" + p.sku + ".png")}/>}
         <h5>{p.short}</h5>
       </div>
     </div>
@@ -626,7 +622,7 @@ function Cover(props){
 function Content(props){
   var p = props.project;
   return(
-    <div className="content rounded16-top lightborder silver shadow3D static">
+    <div className="content rounded16-top lightborder midground shadow3D static">
       <div className="close" onClick={closeCard}></div>
       <div className="scroll-content">
         <Cover project={p}/>
@@ -648,13 +644,13 @@ function Article(props){
     return <div></div>;
   const content = props.list.map((section) =>
     <div key={props.list.indexOf(section)}>
-      {section.h && <p><b>{section.h}</b></p>}
+      {section.h && <p className="paragraph-title">{section.h}</p>}
       {section.p && <p>{section.p}</p>}
-      {section.img && <div className="screens">
-        <img alt="" src={require("./images/products/screens/"+section.img)}/>
+      {section.img && <div className="image-with-caption">
+        <div className="screenshot"><img alt="" src={require("./images/products/screens/"+section.img)}/></div>
         <p><i>{section.c}</i></p>
       </div>}
-      {section.b && <div className="buttonbox"><a className="button shadow3D" href={section.b.link}>{section.b.text}</a></div>}
+      {section.b && <div className="buttonbox"><a className="button foreground shadow3D" href={section.b.link}>{section.b.text}</a></div>}
     </div>
   );
   return <div>{content}</div>;
@@ -665,8 +661,8 @@ function Projects(){
     <div className="bodymask">
       <div className="body">
         <section>
-          <h4>A collection of my best work</h4>
-          <h3>Featured</h3>
+          <h4 className="section-subtitle">A collection of my best work</h4>
+          <h3 className="section-title">Featured</h3>
         </section>
         <div className="cards">
           <Card sku="About"/>
@@ -675,8 +671,8 @@ function Projects(){
         </div>
 
         <section>
-          <h4>Made within hours</h4>
-          <h3>Hackathons</h3>
+          <h4 className="section-subtitle">Made within hours</h4>
+          <h3 className="section-title">Hackathons</h3>
         </section>
         <div className="cards">
           <Card sku="DOGS"/>
@@ -686,8 +682,8 @@ function Projects(){
         </div>
 
         <section>
-          <h4>I studied software engineering</h4>
-          <h3>Class Projects</h3>
+          <h4 className="section-subtitle">I studied software engineering</h4>
+          <h3 className="section-title">Class Projects</h3>
         </section>
         <div className="cards">
           <Card sku="GEO"/>
@@ -696,8 +692,8 @@ function Projects(){
         </div>
 
         <section>
-          <h4>Published apps</h4>
-          <h3>by Kyanite Games</h3>
+          <h4 className="section-subtitle">Published apps</h4>
+          <h3 className="section-title">by Kyanite Games</h3>
         </section>
         <div className="cards">
           <Card sku="PV"/>
@@ -707,8 +703,8 @@ function Projects(){
         </div>
 
         <section>
-          <h4>Hobbies</h4>
-          <h3>Artwork</h3>
+          <h4 className="section-subtitle">Art and stuff</h4>
+          <h3 className="section-title">Hobby Projects</h3>
         </section>
         <div className="cards">
           <Card sku="MV"/>
@@ -716,8 +712,8 @@ function Projects(){
         </div>
 
         <section>
-          <h4>Say hi, ask me anything, Hire me?</h4>
-          <h3>Contact</h3>
+          <h4 className="section-subtitle">Say hi, ask me anything</h4>
+          <h3 className="section-title">Contact</h3>
         </section>
         <div className="contactlinks">
           <Button text="Hello" link="mailto:rob@angle.fish"/>
@@ -730,7 +726,7 @@ function Projects(){
 
 function Header(){ 
   return(
-    <header className="silver">
+    <header className="foreground">
       <div className="body">
         <img className="logo" alt="" src={require("./images/branding/logo.png")}/>
         <span className="portfolio-title">Made by Rob Q</span>
@@ -746,7 +742,7 @@ function currentYear(){
 
 function Footer(){
   return(
-    <footer className="silver">
+    <footer className="foreground">
       <div className="body">
         <p>&copy; {currentYear()} Robert Quinn. All Rights Reserved. App Store is a service mark of Apple, Inc. iPhone, iPad, and Apple TV are trademarks of Apple Inc. Google Play and the Google Play logo are trademarks of Google Inc.</p>
         <p>Last updated May 2020</p>
