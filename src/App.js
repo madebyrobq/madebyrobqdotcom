@@ -4,95 +4,6 @@ import $ from 'jquery';
 
 var projects = [
   {
-    sku: "PV",
-    title: "Pack Van",
-    subtitle: "Endless Arcade Driving",
-    short: "Collect packages and dodge cars",
-    icon: "y",
-    cover: "PV.png",
-    article: [
-      {
-        h: "",
-        p: "Go around town collecting packages in your van. But watch out for the cars that will try to stop you! See how many packages you can get before the cars get you!",
-        img: "PV.png",
-        c: "A fun twist on a classic arcade game"
-      },
-      {
-        h: "Due Credit",
-        p: "Pack Van and Reversi are the ONLY projects in my portfolio which I did not make at least 95% of the artwork. I love making art and take pride in my work but sometimes don't have enough time. Pack Van uses art assets made by the lovely Synty Studios."
-      }
-    ],
-    appstore: "https://itunes.apple.com/us/app/pack-van/id1026340156?ls=1&mt=8",
-    googleplay: "https://play.google.com/store/apps/details?id=com.KyaniteGamesInc.PackVan&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1",
-    textlink: "Also on Apple TV!",
-    textaddress: "https://itunes.apple.com/us/app/pack-van-gold/id1066438019?mt=8",
-  },
-  {
-    sku: "DI",
-    title: "Dungeon Infinity",
-    subtitle: "Dungeon Crawler",
-    short: "Procedurally Generated Levels",
-    icon: "y",
-    cover: "DI.png",
-    article: [
-      {
-        h: "",
-        p: "Enter an infinite dungeon to find gold while avoiding traps and fighting monsters. Dungeons are randomly generated, so every game is a unique experience, and there are many rooms to explore and secrets to find.",
-        img: "DI.png",
-        c: "The spiders are my favorite part of Dungeon Infinity, they were fun to animate"
-      },
-      {
-        h: "",
-        p: "Previously available on the App Store.",
-      },
-    ],
-    oldappstore: "https://itunes.apple.com/us/app/dungeon-infinity/id815359839?mt=8",
-  },
-  {
-    sku: "NSS",
-    title: "Ninja Star Survival",
-    subtitle: "Throw ninja stars",
-    short: "A take on the 'tossing' genre",
-    icon: "y",
-    cover: "NSS.png",
-    article: [
-      {
-        h: "",
-        p: "You are trapped in a lab and a mob of angry robots is approaching! Defend yourself against the robot army using 1 of 12 powerful ninja throwing stars, each with its own unique ability.",
-        img: "NSS.png",
-        c: "That might leave a scratch"
-      },
-      {
-        h: "",
-        p: "Previously available on the App Store, Google Play, and Windows 10.",
-      },
-    ],
-    oldappstore: "https://itunes.apple.com/us/app/ninja-star-survival/id672414566?mt=8",
-    oldgoogleplay: "https://play.google.com/store/apps/details?id=com.JohnQuinn.Ninja&hl=en&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1",
-    oldmicrosoft: "https://www.microsoft.com/store/apps/9nblggh3zgqz?ocid=badge",
-  },
-  {
-    sku: "MR",
-    title: "Monster Roadkill",
-    subtitle: "Zombies & Cars",
-    short: "The start of the adventure",
-    icon: "y",
-    cover: "MR.png",
-    article: [
-      {
-        h: "",
-        p: "Monsters have infested the island and it is up to you to stop them! Drive one of 6 vehicles, equipped with missiles, a flamethrower, jet engine, or laser guns, or just hit them with your car. Monster Roadkill is an exciting action adventure driving game that combines zombies and cars and guns in a massive 3D environment.",
-        img: "MR.png",
-        c: "Get those zombies!"
-      },
-      {
-        h: "",
-        p: "Previously available on the App Store, Google Play, and the Mac App Store.",
-      },
-    ],
-    oldappstore: "https://itunes.apple.com/us/app/monster-roadkill/id524285759?mt=8",
-  },
-  {
     sku: "About",
     title: "Hi, I'm Rob Quinn",
     subtitle: "Allow me to introduce myself",
@@ -102,16 +13,15 @@ var projects = [
     article: [
       {
         h: "What's your thing?",
-        p: "I'm a \"computery guy\" who loves working on UX, front-end, VR/AR, and of course, games. I got into programming by teaching myself and making my first game, Monster Roadkill Lite, which was published for iPhone way back in 2011. Since then, I self-published many more games and started my own company, Kyanite Games\u00AE. In 2018 I graduated from Iowa State with a degree in Software Engineering and moved to Seattle to work on Rec Room at Against Gravity.",
-        b: {text: "Kyanite.Games", link: "http://kyanite.games"}
+        p: "I'm a \"computery guy\" who loves working on UX, front-end, VR/AR, and of course, games. I got into programming by teaching myself and making my first game, Monster Roadkill Lite, which was published for iPhone way back in 2011. Since then, I self-published many more games and started my own company, Kyanite Games. In 2018 I graduated from Iowa State with a degree in Software Engineering and moved to Seattle to work on Rec Room.",
       },
       {
         h: "What are these projects?",
-        p: "These are some of my favorite projects I have made in my free time, for Kyanite Games, for class, and for hackathons.",
+        p: "These are some of my favorite projects I have made for work, as an indie, for school/hackathons, or just for fun.",
       },
       {
         h: "Hold up, what is a hackathon? Sounds shady...",
-        p: "\"Hack\" is synonymous with \"make\" in this context. It is an event where teams come together for a weekend to make a project from scratch. I have been to over 10 organized hackathons + game jams + startup weekends which is where I take time to prototype my biggest ideas, many projects in my portfolio are (or started as) hacks. I am also involved with organizing, mentoring, and designing artwork for hackathons including HackISU and Digital Women Code Camp.",
+        p: "\"Hack\" is synonymous with \"make\" in this context. It is an event where teams come together for a weekend to make a project from scratch. I have been to over 10 organized hackathons + game jams + startup weekends which is where I take time to prototype my biggest ideas, many projects in my portfolio are (or started as) hacks. I have also been involved with organizing, mentoring, and designing artwork for hackathons including HackISU and Digital Women Code Camp.",
       },
       {
         h: "Is your portfolio, like, part of your portfolio?",
@@ -122,58 +32,78 @@ var projects = [
   {
     sku: "RecRoom",
     title: "Rec Room",
-    subtitle: "Online Social VR",
-    short: "Game Engineer at Against Gravity",
+    subtitle: "Online Universe",
+    short: "Game Engineer at Rec Room",
     icon: "",
     cover: "Rec-1.jpg",
     article: [
       {
-        h: "",
-        p: "Rec Room is an online social VR game where you can hang out with your friends and play minigames like laser tag, disc golf, and (my personal favorite) Rec Royale. Users can make custom rooms and games of their own while playing.",
-        
+        h: "What is Rec Room?",
+        p: "Rec Room is an online universe where you can hang out with your friends and play thousands of games like paintball, disc golf, and quests. Users can make custom \"Rooms\" and games of their own while playing together.",
       },
       {
         h: "",
-        p: "I started at Against Gravity in 2018 as a Game Engineer so I have worked on lots of fun new features like laser guns, radio communication, and the early prototype to bring Rec Room to a wider audience on flat (non VR) screens.",
-      },
-      {
-        img: "Rec-2.jpg"
+        p: "I started at Rec Room in 2018 as a Game Engineer. At the time, the company was only 20 people so in the first few months I quickly got to work on just about every part of the app, from making new laser guns to radio voice communication to procedural geometry and the early prototype & ongoing work to bring Rec Room from VR-only to a cross platform game on flat screens like PC and PS4.",
       },
       {
         img: "Rec-3.jpg"
       },
       {
-        h: "Learn More",
-        b: {text: "Against Gravity", link: "https://www.againstgrav.com/rec-room/"}
-      },
-    ],
-  },
-  {
-    sku: "DOGS",
-    title: "Machine Learning \"First Steps\"",
-    subtitle: "Physical Locomotion",
-    short: "Using Genetic Algorithms",
-    icon: "",
-    cover: "DOGS-1.png",
-    banner: {award: "1st Place", event: "HackISU Fall 2016"},
-    article: [
-      {
         h: "",
-        p: "This project started at HackISU in Fall 2016 where it won first place. In one weekend, my team made physics based dogs learn to walk using a genetic algorithm. The dogs have muscles that are powered by a sinewave with parameters for frequency, amplitude, offset, and center. By randomly modifying the values, they figure out which values work best to walk forward. The best dog gets saved and is the parent of the next generation. I lead the project, helping my teammates learn Unity for the first time, and working with a bio pre-medical illustration student who determined the shape and muscle range of the dogs. The team is pictured in the first section of my portfolio.",
-        img: "DOGS-1.png",
-        c: "Dogs running after ~200 generations"
+        p: "By now, I have seen the company more than double in size as well as platforms. We also subdivided from one giant team (the whole company) into smaller teams, and I have comfortably settled into my role on the Player Experience team which focuses on cross-platform design/controls/interactions, mechanics/game feel, and platform-specific delights. Below are some of my most noteworthy projects (in chronological order).",
+      },
+    
+      {
+        img: "default.png",
+        c: "Bowling was my first project as lead developer, which included a lot of physics and networking in addition to the bowling pins/ball/scoring/turns and other interactions you would expect."
       },
       {
-        img: "DOGS-2.png",
-        c: "Fitness scores over time. Lucky mutations result in sudden increases (for example, at gen 92)."
+        img: "default.png",
+        c: "Working on the Castlevania-inspired quest, \"Crescendo of the Blood Moon\", was super fun. I was responsible for balancing & implementing the quest's loot economy, programming traps in the dungeon, and making the whip snap objects up in the air so they land in your hand."
+      },
+      {
+        h: "Social Magic on the iPhone",
+        p: "Besides developing Rec Room's controls, interactions, and UI to work as a cross platform game, my most significant series of projects have been focused on making the iPhone version of Rec Room a compelling product. Rec Room in VR just makes sense because of the way VR affords a physical presence, can be infinitely expressive, and makes for great social playmates. The early version of our flat screen players didn't have nearly the same degrees of freedom to express themselves, so they came off as very robotic and umpleasant to be around if you were playing in VR. Given a fairly broad prompt to make flat screen players better social playmates, I got to design and implement some really fun features that make expressing yourself on a phone much more delightful:",
+      },
+      {
+        img: "default.png",
+        c: "Non-VR players can wave with full control over the motion, rhythm, and intensity."
+      },
+      {
+        img: "default.png",
+        c: "Dance mode lets you do high-energy poses with your full body"
+      },
+      {
+        img: "default.png",
+        c: "I am very proud of the animation graph I designed to go with dancin' and wavin'. It is a 3D Delaunay graph where any x,y,z input will return a weighted blend of the four animation nodes in the surrounding tetrahedron. It will seamlessly blend along any path and extrapolate outside the graph for super smooth results."
+      },
+      {
+        h: "iPhone + AR",
+        p: "I had been pushing for AR features since before we were even on the iPhone, so when the time was right, I was totally ready to take on these projects.",
+      },
+      {
+        img: "default.png",
+        c: "The first phase of AR on the phone was using the TrueDepth camera on the iPhone X to copy your facial expressions onto the Rec Room character, similar to Apple's Memoji. The faces in Rec Room use discrete sprites rather than blend shapes so I designed a heuristic to determine what expression you are trying to make and pick the best sprite. It also has fun features like animating your eye/mouth/head positions."
+      },
+      {
+        img: "default.png",
+        c: "Next, we added the AR Room which lets you scan your space, decorate it with virtual props, and invite your friends to join you. This project was a joint effort with making the AR player controls and integrating the AR scan into Rec Room so other players could get an idea of your space. LiDAR might be useful to make the space more readable ;)"
+      },
+      {
+        h: "Company Info",
+        b: {text: "Rec Room", link: "https://www.recroom.com/"}
+      },
+      {
+        h: "Community",
+        b: {text: "Rec Net", link: "https://www.rec.net/"}
       },
     ],
   },
   {
     sku: "CC",
-    title: "Column Climbers",
-    subtitle: "3 years in the making",
-    short: "Silly Rock Climbing Game",
+    title: "Climber Crew",
+    subtitle: "4+ years in the making",
+    short: "Rock Climbing Adventure",
     icon: "",
     cover: "CC-1.png",
     article: [
@@ -214,6 +144,111 @@ var projects = [
       {
         h: "Lots of Art",
         p: "I'm making all the 3D models myself, which is fun but time consuming. A year in to the project I decided to switch to Autodesk Maya for modeling so I had a bit of a learning curve but now is a regular part of my workflow.",
+      },
+    ],
+  },
+  {
+    sku: "DOGS",
+    title: "Machine Learning \"First Steps\"",
+    subtitle: "Physical Locomotion",
+    short: "Using Genetic Algorithms",
+    icon: "",
+    cover: "DOGS-1.png",
+    banner: {award: "1st Place", event: "HackISU Fall 2016"},
+    article: [
+      {
+        h: "",
+        p: "This project started at HackISU in Fall 2016 where it won first place. In one weekend, my team made physics based dogs learn to walk using a genetic algorithm. The dogs have muscles that are powered by a sinewave with parameters for frequency, amplitude, offset, and center. By randomly modifying the values, they figure out which values work best to walk forward. The best dog gets saved and is the parent of the next generation. I lead the project, helping my teammates learn Unity for the first time, and working with a bio pre-medical illustration student who determined the shape and muscle range of the dogs. The team is pictured in the first section of my portfolio.",
+        img: "DOGS-1.png",
+        c: "Dogs running after ~200 generations"
+      },
+      {
+        img: "DOGS-2.png",
+        c: "Fitness scores over time. Lucky mutations result in sudden increases (for example, at gen 92)."
+      },
+    ],
+  },
+  {
+    sku: "PV",
+    title: "Pack Van",
+    subtitle: "Endless Arcade Driving",
+    short: "Collect packages and dodge cars",
+    icon: "y",
+    cover: "PV.png",
+    article: [
+      {
+        h: "",
+        p: "Go around town collecting packages in your van. But watch out for the cars that will try to stop you! See how many packages you can get before the cars get you!",
+        img: "PV.png",
+        c: "A fun twist on a classic arcade game"
+      },
+      {
+        h: "",
+        p: "Previously available on the App Store, Apple TV, and Google Play",
+      },
+      {
+        h: "Due Credit",
+        p: "Pack Van uses art assets made by the lovely Synty Studios."
+      },
+    ],
+  },
+  {
+    sku: "DI",
+    title: "Dungeon Infinity",
+    subtitle: "Dungeon Crawler",
+    short: "Procedurally Generated Levels",
+    icon: "y",
+    cover: "DI.png",
+    article: [
+      {
+        h: "",
+        p: "Enter an infinite dungeon to find gold while avoiding traps and fighting monsters. Dungeons are randomly generated, so every game is a unique experience, and there are many rooms to explore and secrets to find.",
+        img: "DI.png",
+        c: "The spiders are my favorite part of Dungeon Infinity, they were fun to animate"
+      },
+      {
+        h: "",
+        p: "Previously available on the App Store.",
+      },
+    ],
+  },
+  {
+    sku: "NSS",
+    title: "Ninja Star Survival",
+    subtitle: "Throw ninja stars",
+    short: "A take on the 'tossing' genre",
+    icon: "y",
+    cover: "NSS.png",
+    article: [
+      {
+        h: "",
+        p: "You are trapped in a lab and a mob of angry robots is approaching! Defend yourself against the robot army using 1 of 12 powerful ninja throwing stars, each with its own unique ability.",
+        img: "NSS.png",
+        c: "That might leave a scratch"
+      },
+      {
+        h: "",
+        p: "Previously available on the App Store, Google Play, and Windows 10.",
+      },
+    ],
+  },
+  {
+    sku: "MR",
+    title: "Monster Roadkill",
+    subtitle: "Zombies & Cars",
+    short: "The start of the adventure",
+    icon: "y",
+    cover: "MR.png",
+    article: [
+      {
+        h: "",
+        p: "Monsters have infested the island and it is up to you to stop them! Drive one of 6 vehicles, equipped with missiles, a flamethrower, jet engine, or laser guns, or just hit them with your car. Monster Roadkill is an exciting action adventure driving game that combines zombies and cars and guns in a massive 3D environment.",
+        img: "MR.png",
+        c: "Get those zombies!"
+      },
+      {
+        h: "",
+        p: "Previously available on the App Store, Google Play, and the Mac App Store.",
       },
     ],
   },
@@ -280,9 +315,9 @@ var projects = [
   },
   {
     sku: "AROUND",
-    title: "AR Building Mapper",
-    subtitle: "Cutting edge AR",
-    short: "Indoor Hospital Navigation",
+    title: "AR Building Navigation",
+    subtitle: "Indoor Pathfinding",
+    short: "iPad AR concept for hospitals",
     icon: "",
     cover: "AROUND.jpeg",
     article: [
@@ -362,13 +397,17 @@ var projects = [
     article: [
       {
         h: "Unbeatable Ai",
-        p: "This project was to make an Ai for the board game reversi. It uses a minimax algorithm which searches moves up to a certain depth, and picks the next move that minimizes the human and maximizes the Ai score, assuming the human takes their best move. I can beat the Ai at a depth of 3 or 4 but after 7 I don't stand a chance (but I had never played reversi before this project, give me a break). Art assets were provided.",
+        p: "This project was to make an Ai for the board game reversi. It uses a minimax algorithm which searches moves up to a certain depth, and picks the next move that minimizes the human and maximizes the Ai score, assuming the human takes their best move. I can beat the Ai at a depth of 3 or 4 but after 7 I don't stand a chance (but I had never played reversi before this project, give me a break).",
       },
       {
         h: "Tracing its Steps",
-        p: "I implemented the game board as a connected graph rather than a 2D array, which made my Ai checks significantly faster than other implementations and allowed me to push the depth of the search farther. As the minimax algorithm reaches the depth of its search, it comes back up and draws a line over the tile on the board. When it gets back to the top you can see the entire thought process and where certain branches were decided against while others continue to the top.",
+        p: "I implemented the game board as a connected graph which evaluated the board's state in place, rather than creating a new 2D array of the board's state at every step of the search. This made my Ai significantly faster than other implementations and allowed me to push the depth of the search further. As the minimax algorithm reaches the depth of its search, it comes back up and draws a line over the tile on the board. When it gets back to the top you can see the entire thought process and where certain branches were decided against while others continue to the top.",
         img: "REVERSI-2.png",
         c: "The tree representing all moves to a depth of 3, colored lines represent the best move of the subtree and tick size represents score difference"
+      },
+      {
+        h: "Due Credit",
+        p: "The art assets for reversi were provided for the class."
       },
     ],
   },
@@ -654,7 +693,6 @@ function Projects(){
           <Card sku="GEO"/>
           <Card sku="RR"/>
           <Card sku="REVERSI"/>
-          <Card sku="ARPP"/>
         </div>
 
         <section>
@@ -669,7 +707,7 @@ function Projects(){
         </div>
 
         <section>
-          <h4>Standalone</h4>
+          <h4>Hobbies</h4>
           <h3>Artwork</h3>
         </section>
         <div className="cards">
@@ -682,10 +720,8 @@ function Projects(){
           <h3>Contact</h3>
         </section>
         <div className="contactlinks">
-          <Button text="Hello" link="mailto:rob@kyanite.games"/>
+          <Button text="Hello" link="mailto:rob@angle.fish"/>
           <Button Twitter="y" text="RobQuiiinn" link="https://twitter.com/RobQuiiinn"/>
-          <Button text="Kyanite.Games" link="http://kyanite.games"/>
-          <Button Twitter="y" text="KyaniteGames" link="https://twitter.com/kyanitegames"/>
         </div>
       </div>
     </div>
@@ -712,8 +748,8 @@ function Footer(){
   return(
     <footer className="silver">
       <div className="body">
-        <p>&copy; {currentYear()} Robert Quinn and Kyanite Games Inc. All Rights Reserved. App Store is a service mark of Apple, Inc. iPhone, iPad, and Apple TV are trademarks of Apple Inc. Google Play and the Google Play logo are trademarks of Google Inc.</p>
-        <p>Last updated August 26, 2018</p>
+        <p>&copy; {currentYear()} Robert Quinn. All Rights Reserved. App Store is a service mark of Apple, Inc. iPhone, iPad, and Apple TV are trademarks of Apple Inc. Google Play and the Google Play logo are trademarks of Google Inc.</p>
+        <p>Last updated May 2020</p>
       </div>
     </footer>
   );

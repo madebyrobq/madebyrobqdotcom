@@ -1,33 +1,6 @@
+/* Copyright Robert Quinn 2020*/
 
-.kyanite, .games{
-  font: 32px Helvetica Neue, Arial, sans-serif;
-  letter-spacing: 1px;
-  position: relative;
-  top: 16px;
-  color: #0080FF;
-  font-weight: bold;
-}
-.games{
-  color: black;
-  font-weight: lighter;
-}
-.r{
-  font-size: 12px;
-}
-
-/*#window{
-  height: 100%;
-  overflow: scroll;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  -webkit-overflow-scrolling: touch;
-  -webkit-transform: translate3d(0,0,0);
-  box-shadow: 0 0 0 20 inset red;
-}*/
-
-/* Body, header, footer, colors */
+/*#region Body*/
 body{
   margin: 0;
   padding: 0;
@@ -52,6 +25,18 @@ body{
   max-width: 100vw;
   overflow: hidden;
 }
+
+a{
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+/*#endregion Body*/
+
+/*#region Backdrop*/
 
 #backdrop{
   pointer-events: none;
@@ -79,13 +64,9 @@ body{
   overflow: hidden;
 }
 
-a{
-  color: black;
-  text-decoration: none;
-  text-align: center;
-  font-weight: bold;
-  vertical-align: middle;
-}
+/*#endregion Backdrop*/
+
+/*#region HeaderFooter*/
 
 header img{
   float: left;
@@ -106,14 +87,6 @@ footer{
   padding: 1px;
 }
 
-.games{
-  color: black;
-  font-weight: lighter;
-}
-.r{
-  font-size: 12px;
-}
-
 .portfolio-title{
   position: relative;
   top: 23px;
@@ -125,20 +98,11 @@ footer{
   color: #191919;
   margin-left: 6px;
 }
+/*#endregion HeaderFooter*/
 
-.blue{
-  color: #FFFFFF;
-  background-color: #0080FF;
-}
-.silver{
-  background: #f0f0f0;
-}
-.ice{
-  background: #66CCFF;
-  color: #191919;
-}
+/*#region Shadows*/
+
 .lightborder{
-  /*border: 0.5px solid gray;*/
   box-shadow: 0px 0px 1px 0px gray;
 }
 .shadow3D{
@@ -165,8 +129,9 @@ hr{
   box-shadow: inset 0px 12px 12px -12px #101010;
 }
 
+/*#endregion Shadows*/
 
-/* App card grid */
+/*#region CardGrid*/
 .cover{
   position: relative;
   height: 100%;
@@ -196,7 +161,6 @@ hr{
 .content .title{
   background: linear-gradient(to bottom right, rgba(0,0,0,0.2), rgba(0,0,0,0), rgba(0,0,0,0));
 }
-
 
 p, h3, h4, h5{
   display: block;
@@ -241,16 +205,14 @@ section{
   margin: 0px;
   padding-top: 30px;
   width: 100%;
-  /*border: 1px black solid;*/
 }
 
 p{
   font-family: Helvetica;
 }
+/*#endregion CardGrid*/
 
-
-
-/* App card */
+/*#region CardContent*/
 .icon{
   margin-left: 20px;
   height: 72px;
@@ -295,6 +257,8 @@ p{
   height: 100%;
   -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
 }
+
+/*#region MediaScreenSizes*/
 .cardcontainer{
   position: relative;
   display: inline-block;
@@ -364,6 +328,7 @@ p{
     padding-bottom: 75.61%;
   }
 }
+/*#endregion MediaScreenSizes*/
 
 .content{
   z-index: 10;
@@ -375,7 +340,7 @@ p{
   overflow: hidden;
   max-width: 700px;
   width: 100%;
-
+  
   max-height: 100%;
   display: none;
   -webkit-transition: 0.5s;
@@ -389,38 +354,6 @@ p{
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
   padding-bottom: max(0px, env(safe-area-inset-bottom));
-}
-/*@media all and (light-level: dim){
-  body{
-    background: yellow;
-  }
-}
-@media (inverted-colors: inverted) {
-  p {
-    background: black;
-    color: yellow;
-  }
-}*/
-
-
-
-.close{
-  background: url("images/textures/X.svg");
-  background-size: 100%;
-  margin: 8px;
-  padding: 16px;
-  z-index: 12;
-  position: absolute;
-  right: 0px;
-  opacity: 1;
-  -webkit-transition: 0.25s;
-}
-.close:hover{
-  -webkit-transform: scale(1.1, 1.1);
-}
-.close:active{
-  -webkit-transform: scale(1, 1);
-  opacity: 0.75;
 }
 
 .screens{
@@ -444,6 +377,28 @@ p{
   width: calc(100% - 40px);
   text-align: center;
   display: block;
+}
+/*#endregion CardContent*/
+
+/*#region Buttons*/
+
+.close{
+  background: url("images/textures/X.svg");
+  background-size: 100%;
+  margin: 8px;
+  padding: 16px;
+  z-index: 12;
+  position: absolute;
+  right: 0px;
+  opacity: 1;
+  -webkit-transition: 0.25s;
+}
+.close:hover{
+  -webkit-transform: scale(1.1, 1.1);
+}
+.close:active{
+  -webkit-transform: scale(1, 1);
+  opacity: 0.75;
 }
 
 .contactlinks{
@@ -492,7 +447,9 @@ p{
   top: -1px;
   right: 5px;
 }
+/*#endregion Buttons*/
 
+/*#region Banner*/
 .banner, .banner-right, .banner-left{
   z-index: 5;
   position: absolute;
@@ -543,7 +500,4 @@ p{
   margin-left: 20px;
   margin-right: 20px;
 }
-
-/*.timeline-Viewport{
-  -webkit-overflow-scrolling: touch;
-}*/
+/*#endregion Banner*/
