@@ -103,7 +103,7 @@ var projects = [
     sku: "CC",
     title: "Climber Crew",
     subtitle: "4+ years in the making",
-    short: "Rock Climbing Adventure",
+    short: "Rock climbing adventure",
     icon: "",
     cover: "CC-1.png",
     article: [
@@ -151,7 +151,7 @@ var projects = [
     sku: "DOGS",
     title: "Machine Learning \"First Steps\"",
     subtitle: "Physical Locomotion",
-    short: "Using Genetic Algorithms",
+    short: "Using genetic algorithms",
     icon: "",
     cover: "DOGS-1.png",
     banner: {award: "1st Place", event: "HackISU Fall 2016"},
@@ -196,7 +196,7 @@ var projects = [
     sku: "DI",
     title: "Dungeon Infinity",
     subtitle: "Dungeon Crawler",
-    short: "Procedurally Generated Levels",
+    short: "Procedurally generated levels",
     icon: "y",
     cover: "DI.png",
     article: [
@@ -256,7 +256,7 @@ var projects = [
     sku: "BOT",
     title: "Block Robots",
     subtitle: "Educational and fun",
-    short: "iPad App that Teaches Programming",
+    short: "iPad app that teaches programming",
     icon: "",
     cover: "BOT-1.png",
     banner: {award: "1st Place", event: "HackISU Spring 2016"},
@@ -287,7 +287,7 @@ var projects = [
     sku: "CAR",
     title: "cAR",
     subtitle: "Augmented Reality Glass",
-    short: "AR Concept for Self-Driving and Assisted Vehicles",
+    short: "AR concept for self-driving and assisted vehicles",
     icon: "",
     cover: "CAR-1.png",
     article: [
@@ -317,7 +317,7 @@ var projects = [
     sku: "AROUND",
     title: "AR Building Navigation",
     subtitle: "Indoor Pathfinding",
-    short: "iPad AR Concept for Hospitals",
+    short: "iPad AR concept for hospitals",
     icon: "",
     cover: "AROUND.jpeg",
     article: [
@@ -337,7 +337,7 @@ var projects = [
     sku: "GEO",
     title: "Mesh Triangulation and Point Location",
     subtitle: "Computational Geometry",
-    short: "Processing and Querying Triangulation",
+    short: "Processing and querying triangulation",
     icon: "",
     cover: "GEO-1.png",
     article: [
@@ -369,7 +369,7 @@ var projects = [
     sku: "RR",
     title: "Realm Raiders",
     subtitle: "Prototype for HoloLens",
-    short: "Tower Defense All Around You",
+    short: "Tower defense all around you",
     icon: "",
     cover: "RR-1.png",
     article: [
@@ -391,7 +391,7 @@ var projects = [
     sku: "REVERSI",
     title: "Reversi Ai",
     subtitle: "Good luck",
-    short: "Always n Steps Ahead",
+    short: "Always N steps ahead",
     icon: "",
     cover: "REVERSI-1.png",
     article: [
@@ -415,7 +415,7 @@ var projects = [
     sku: "ARPP",
     title: "AR Ping Pong",
     subtitle: "Using Apple ARKit",
-    short: "Your iPhone is Your Paddle",
+    short: "Your iPhone is your paddle",
     icon: "",
     cover: "ARPP.jpeg",
     article: [
@@ -428,25 +428,10 @@ var projects = [
     ],
   },
   {
-    sku: "IRON",
-    title: "VR Game",
-    subtitle: "Coming in May",
-    short: "Class Project Using Vive",
-    icon: "",
-    cover: "default.png",
-    article: [
-      {
-        h: "I'm Making a Vive Game",
-        p: "More information coming in the winter, but it has motion based spell casting and high-tech vampires. Get excited.",
-        s: ""
-      },
-    ],
-  },
-  {
     sku: "MV",
     title: "Monument Valley",
     subtitle: "Impossible Geometry",
-    short: "Fan Art + Unity",
+    short: "Fan art + Unity",
     icon: "",
     cover: "MV-1.png",
     banner: {award: "1st Place", event: "Unity Community Art Challenge 4"},
@@ -469,7 +454,7 @@ var projects = [
     sku: "ZEN",
     title: "Zenyatta Orb Necklace",
     subtitle: "3D Printed Fan art",
-    short: "Mixed Medium Art",
+    short: "Mixed medium art",
     icon: "",
     cover: "ZEN-1.JPG",
     article: [
