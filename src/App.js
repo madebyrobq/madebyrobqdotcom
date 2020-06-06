@@ -25,7 +25,7 @@ var projects = [
       },
       {
         h: "Is your portfolio, like, part of your portfolio?",
-        p: "I'm glad you asked! I made this website using React and did all the styling too using CSS3. Its design is inspired by iOS 11's new App Store, which is fitting for my projects because many are apps. This site is also optimized for Safari, Mobile Safari, and the unique screen shape of the new iPhone X.",
+        p: "I'm glad you asked! I made this website using React and did all the styling too using CSS3. Its design is inspired by iOS 11's App Store, which is fitting for my interest in mobile games. I designed this site to look great on all iPhone and iPad devices with support for notched screens and dark mode.",
       },
     ],
   },
@@ -317,7 +317,7 @@ var projects = [
     sku: "AROUND",
     title: "AR Building Navigation",
     subtitle: "Indoor Pathfinding",
-    short: "iPad AR concept for hospitals",
+    short: "iPad AR Concept for Hospitals",
     icon: "",
     cover: "AROUND.jpeg",
     article: [
@@ -459,7 +459,7 @@ var projects = [
       },
       {
         h: "Physical Copy",
-        p: "It's a simple model, but it's elegant and effective. The illusion even holds up in real life, I got it 3D printed and painted to match.",
+        p: "It's a simple model, but it's elegant and effective. The illusion even holds up in real life, I got it 3D printed and painted it to match.",
         img: "MV-2.jpg",
         c: "3D printed & painted"
       },
@@ -588,18 +588,14 @@ function Card(props){
 }
 
 function Banner(props){
-  if(props.small)return(
-    <div className="banner">
-      <h3>{props.banner.award}</h3>
-      <h4>{props.banner.event}</h4>
-    </div>
-  );
   return(
-    <div className="banner shadow3D static">
-      <h3>{props.banner.award}</h3>
-      <h4>{props.banner.event}</h4>
+    <div className="banner ">
       <div className="banner-left"></div>
       <div className="banner-right"></div>
+      <div className="banner-middle shadow2D">
+        <h4>{props.banner.event}</h4>
+        <h3>{props.banner.award}</h3>
+      </div>
     </div>
   );
 }
@@ -676,9 +672,9 @@ function Projects(){
         </section>
         <div className="cards">
           <Card sku="DOGS"/>
+          <Card sku="BOT"/>
           <Card sku="CAR"/>
           <Card sku="AROUND"/>
-          <Card sku="BOT"/>
         </div>
 
         <section>
@@ -692,7 +688,7 @@ function Projects(){
         </div>
 
         <section>
-          <h4 className="section-subtitle">Published apps</h4>
+          <h4 className="section-subtitle">Legacy apps</h4>
           <h3 className="section-title">by Kyanite Games</h3>
         </section>
         <div className="cards">

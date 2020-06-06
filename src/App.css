@@ -150,6 +150,7 @@ h5{
 header img{
   float: left;
   height: 60px;
+  width: 60px;
   margin: 6px;
   margin-left: 20px;
   border-radius: 100%;
@@ -229,7 +230,8 @@ hr{
   height: 100%;
 }
 .content .cover-details-container{
-  background: linear-gradient(to bottom right, rgba(0,0,0,0.2), rgba(0, 0, 0, 0), rgba(0,0,0,0));
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.308));
+  box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.719);
 }
 .content h5{
   display: none;
@@ -490,51 +492,71 @@ section{
 /*#endregion Buttons*/
 
 /*#region Banner*/
-.banner, .banner-right, .banner-left{
-  z-index: 5;
+.banner{
   position: absolute;
+}
+.banner, .banner-middle .banner-right, .banner-left{
   height: 44px;
   background-size: 100% 100%;
 }
+
+.banner * {
+  position: relative;
+}
+
 .banner{
-  background: url("images/textures/banner-front.svg");
+  z-index: 5;
   bottom: 72px;
   left: -9px;
   width: calc(100% + 18px);
 }
-.banner > h3, .banner > h4{
+.banner-middle{
+  background: url("images/textures/banner-front.svg");
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 6;
+}
+.banner h3, .banner h4{
+  top: 2px;
   margin: 0px;
-  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
   font-size: 20px;
   line-height: auto;
   display: block;
   text-align: center;
 }
-.banner > h4{
+.banner h4{
   font-size: 14px;
 }
 .banner-right, .banner-left{
+  position: absolute;
   background: url("images/textures/banner-right.svg");
   width: 30px;
+  height: 44px;
   top: 11px;
 }
+.banner-corner{
+  background: url("images/textures/banner-right-corner.svg");
+}
 .banner-right{
-  right: 0px;
-  transform: translate(21px, 0px);
+  float: right;
+  right: -21px;
+  transform: scale(1, 1);
 }
 .banner-left{
-  left: 0px;
-  transform: translate(-21px, 0px) scale(-1, 1);
+  float: left;
+  left: -21px;
+  transform: scale(-1, 1);
 }
-.shadow3D:not(.static):hover .banner{
-  bottom: 78px;
-}
+
 .scroll-content > .banner{
-  min-width: 200px;
+  min-width: 230px;
   width: auto;
   top: 140px;
   left: auto;
-  right: 0px;
+  right: 50px;
 }
 .scroll-content > .banner > h4{
   margin-left: 20px;
