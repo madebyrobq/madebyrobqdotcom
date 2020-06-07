@@ -117,21 +117,21 @@ var projects = [
     subtitle: "4+ years in the making",
     short: "Rock climbing adventure",
     icon: "",
-    cover: "CC-1.png",
+    cover: "CC-newpromo.png",
     article: [
       {
-        img: "CC-1.png",
-        c: "A recent screenshot of Column Climbers. Follow me on Twitter for the most up-to-date content."
+        img: "CC-newpromo.png",
+        c: "A recent screenshot of Climber Crew. Follow me on Twitter for the most up-to-date content."
       },
       {
         h: "Going Up",
-        p: "I started Column Climbers at HackISU in Fall 2015, where it was a crowd favorite and something I knew I had to continue. I have been working on it in my free time since then and will publish it \"when it's done\". Here are some reasons I'm proud of it and also why it is taking so long to make:",
+        p: "I started Climber Crew at HackISU in Fall 2015 as \"Climbing Simulator\", where it was a crowd favorite and something I knew I had to continue. I have been working on it in my free time since then and will publish it \"when it's done\". Here are some reasons I'm proud of it and also why it is taking so long to make:",
         img: "CC-4.PNG",
         c: "From the first weekend of development"
       },
       {
         h: "Detailed, Nuanced Movement",
-        p: "Smooth motion and floppy physics are at the core of Column Climbers, and it is a fine line between having responsive movement and having the characters be jittery and gross. I really applied my physics skills here to make custom spring and drag forces and learned a lot along the way.",
+        p: "Smooth motion and floppy physics are at the core of Climber Crew, and it is a fine line between having responsive movement and having the characters be jittery and gross. I really applied my physics skills here to make custom spring and drag forces and learned a lot along the way.",
       },
       {
         h: "Simple Tested Controls",
@@ -155,7 +155,7 @@ var projects = [
       },
       {
         h: "Lots of Art",
-        p: "I'm making all the 3D models myself, which is fun but time consuming. A year in to the project I decided to switch to Autodesk Maya for modeling so I had a bit of a learning curve but now is a regular part of my workflow.",
+        p: "I'm making all the 3D models myself, which is fun but time consuming.",
       },
     ],
   },
