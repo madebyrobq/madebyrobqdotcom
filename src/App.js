@@ -43,51 +43,63 @@ var projects = [
       },
       {
         h: "",
-        p: "I started at Rec Room in 2018 as a Game Engineer. At the time, the company was only 20 people so in the first few months I quickly got to work on just about every part of the app, from making new laser guns to radio voice communication to procedural geometry and the early prototype & ongoing work to bring Rec Room from VR-only to a cross platform game on flat screens like PC and PS4.",
+        p: "I started at Rec Room in 2018 as a Game Engineer. At the time, the company was only 20 people so in the first few months I quickly got to work on just about every part of the app, from making new laser guns to radio voice communication to procedural geometry and the early prototype & ongoing work to bring Rec Room from VR-only to a cross platform game on flat screens like PC, PS4, and eventually iPhone and iPad.",
       },
       {
-        img: "Rec-3.jpg"
+        img: "Rec-3.jpg",
+        c: "One of my first tasks was adding radio-style voice communication for teammates in Rec Royale. Photo by user Cloud (with me on the right)"
+      },
+      {
+        img: "bowling-Kiwi2020.jpg",
+        c: "Bowling was my first project as lead developer, which included a lot of physics and networking in addition to the bowling pins/ball/scoring/turns and other interactions. Photo by user Kiwi2020"
+      },
+      {
+        img: "Crescendo-fuzzyraven361.jpg",
+        c: "Working on the Castlevania-inspired quest, \"Crescendo of the Blood Moon\", was super fun. I was responsible for balancing & implementing the quest's loot economy, programming traps in the dungeon, and making the whip snap objects up in the air so they land in your hand. Photo by user FuzzyRaven361"
       },
       {
         h: "",
-        p: "By now, I have seen the company more than double in size as well as platforms. We also subdivided from one giant team (the whole company) into smaller teams, and I have comfortably settled into my role on the Player Experience team which focuses on cross-platform design/controls/interactions, mechanics/game feel, and platform-specific delights. Below are some of my most noteworthy projects (in chronological order).",
-      },
-    
-      {
-        img: "default.png",
-        c: "Bowling was my first project as lead developer, which included a lot of physics and networking in addition to the bowling pins/ball/scoring/turns and other interactions you would expect."
-      },
-      {
-        img: "default.png",
-        c: "Working on the Castlevania-inspired quest, \"Crescendo of the Blood Moon\", was super fun. I was responsible for balancing & implementing the quest's loot economy, programming traps in the dungeon, and making the whip snap objects up in the air so they land in your hand."
+        p: "By now, I have seen the company more than double in size as well as platforms. We also subdivided from one giant team (the whole company) into smaller teams, and I have comfortably settled into my role on the Player Experience team which focuses on cross-platform design/controls/interactions, mechanics/game feel, and platform-specific delights.",
       },
       {
         h: "Social Magic on the iPhone",
-        p: "Besides developing Rec Room's controls, interactions, and UI to work as a cross platform game, my most significant series of projects have been focused on making the iPhone version of Rec Room a compelling product. Rec Room in VR just makes sense because of the way VR affords a physical presence, can be infinitely expressive, and makes for great social playmates. The early version of our flat screen players didn't have nearly the same degrees of freedom to express themselves, so they came off as very robotic and umpleasant to be around if you were playing in VR. Given a fairly broad prompt to make flat screen players better social playmates, I got to design and implement some really fun features that make expressing yourself on a phone much more delightful:",
+        p: "Besides developing Rec Room's controls, interactions, and UI to work as a cross platform game, my most significant series of projects have been focused on making the iPhone version of Rec Room a compelling product. Rec Room in VR just makes sense because of the way VR affords a physical presence, can be infinitely expressive, and makes for great social playmates. The early version of our flat-screen players didn't have nearly the same degrees of freedom to express themselves, so they came off as very robotic and umpleasant to be around if you were playing in VR. Given a fairly broad prompt to make flat-screen players better social playmates, I got to design and implement some really fun features that make expressing yourself on a phone much more delightful:",
       },
       {
-        img: "default.png",
+        img: "Waving.gif",
         c: "Non-VR players can wave with full control over the motion, rhythm, and intensity."
       },
       {
-        img: "default.png",
+        img: "DanceMode.gif",
         c: "Dance mode lets you do high-energy poses with your full body"
       },
       {
-        img: "default.png",
-        c: "I am very proud of the animation graph I designed to go with dancin' and wavin'. It is a 3D Delaunay graph where any x,y,z input will return a weighted blend of the four animation nodes in the surrounding tetrahedron. It will seamlessly blend along any path and extrapolate outside the graph for super smooth results."
+        img: "RRAnimationGraph.png",
+        c: "I am very satisfied with the animation graph I designed & implemented to go with dancin' and wavin'. It is a 3D Delaunay graph where any x,y,z input will return a weighted blend of the four animation nodes in the surrounding tetrahedron. It will seamlessly blend along any path and extrapolate outside the graph for super smooth results."
       },
       {
         h: "iPhone + AR",
         p: "I had been pushing for AR features since before we were even on the iPhone, so when the time was right, I was totally ready to take on these projects.",
       },
       {
-        img: "default.png",
-        c: "The first phase of AR on the phone was using the TrueDepth camera on the iPhone X to copy your facial expressions onto the Rec Room character, similar to Apple's Memoji. The faces in Rec Room use discrete sprites rather than blend shapes so I designed a heuristic to determine what expression you are trying to make and pick the best sprite. It also has fun features like animating your eye/mouth/head positions."
+        h: "",
+        p: "The first phase of AR on the phone was using the TrueDepth camera on the iPhone X to copy your facial expressions onto the Rec Room character, similar to Apple's Memoji. The faces in Rec Room use discrete sprites rather than blend shapes so I designed a heuristic to determine what expression you are trying to make and pick the best sprite. It also has fun features like animating your eye/mouth/head positions.",
       },
       {
-        img: "default.png",
-        c: "Next, we added the AR Room which lets you scan your space, decorate it with virtual props, and invite your friends to join you. This project was a joint effort with making the AR player controls and integrating the AR scan into Rec Room so other players could get an idea of your space. LiDAR might be useful to make the space more readable ;)"
+        img: "ARSelfie.gif",
+        c: "Face tracking while taking a selfie"
+      },
+      {
+        h: "",
+        p: "Next, we added the AR Room which lets you scan your space, decorate it with virtual props, and invite your friends to join you. This project was a joint effort with making the AR player controls and integrating the AR scan into Rec Room so other players could see a rough scan of your space.",
+      },
+      {
+        img: "RROfficeAR.gif",
+        c: "Bowling in the Rec Room office using AR. The table and room are real, the pins, ball, and Shawn are augmented. Shawn is in VR."
+      },
+      {
+        img: "RRARAppleFeature.JPG",
+        c: "Apple did a feature specifically on the AR features!"
       },
       {
         h: "Company Info",
@@ -179,6 +191,8 @@ var projects = [
       {
         h: "",
         p: "Go around town collecting packages in your van. But watch out for the cars that will try to stop you! See how many packages you can get before the cars get you!",
+      },
+      {
         img: "PV.png",
         c: "A fun twist on a classic arcade game"
       },
@@ -203,6 +217,8 @@ var projects = [
       {
         h: "",
         p: "Enter an infinite dungeon to find gold while avoiding traps and fighting monsters. Dungeons are randomly generated, so every game is a unique experience, and there are many rooms to explore and secrets to find.",
+      },
+      {
         img: "DI.png",
         c: "The spiders are my favorite part of Dungeon Infinity, they were fun to animate"
       },
@@ -223,6 +239,8 @@ var projects = [
       {
         h: "",
         p: "You are trapped in a lab and a mob of angry robots is approaching! Defend yourself against the robot army using 1 of 12 powerful ninja throwing stars, each with its own unique ability.",
+      },
+      {
         img: "NSS.png",
         c: "That might leave a scratch"
       },
@@ -243,7 +261,12 @@ var projects = [
       {
         h: "",
         p: "Monsters have infested the island and it is up to you to stop them! Drive one of 6 vehicles, equipped with missiles, a flamethrower, jet engine, or laser guns, or just hit them with your car. Monster Roadkill is an exciting action adventure driving game that combines zombies and cars and guns in a massive 3D environment.",
-        img: "MR.png",
+      },
+      {
+        h: "",
+        p: "This was the first app I ever published back in 2011. I first learned programming, 3D art, animation, publishing, and a bunch of other skills by making this game.",
+      },
+      { img: "MR.png",
         c: "Get those zombies!"
       },
       {
@@ -285,7 +308,7 @@ var projects = [
   },
   {
     sku: "CAR",
-    title: "cAR",
+    title: "C.AR",
     subtitle: "Augmented Reality Glass",
     short: "AR concept for self-driving and assisted vehicles",
     icon: "",
@@ -440,7 +463,7 @@ var projects = [
         h: "Impossible Made Possible",
         p: "Inspired by one of my favorite games, I modeled this Monument Valley themed ornament for the Unity Comminity Art Challenge and got first place. It took many attempts to make the illusion convincing and not disfigured from other angles, but with some patience and focal length adjustments it turned out great. I even incorporated the Unity logo with the silver color and it fit perfectly.",
         img: "MV-1.png",
-        c: "Render from Sketchfab"
+        c: "Render of the Unity themed model"
       },
       {
         h: "Physical Copy",
@@ -460,21 +483,17 @@ var projects = [
     article: [
       {
         h: "\"Ready for Transcendence\"",
-        p: "This piece was inspired by Zenyatta, a hero from the game Overwatch. The orb was meticulously modeled with all of the engravings and designs found in the game, and the topology is impeccable to ensure the highest quality print. I ordered it 3D printed in brass and assembled the necklace using rope, beads, and thread that matches the style of Zenyatta's outfit and sash.",
+        p: "This piece was inspired by Zenyatta, a hero from the game Overwatch. I modeled the orb with all of the engravings and designs found in the game, and ordered it 3D printed brass. I finished the necklace using rope, beads, and thread that matches the style of Zenyatta's outfit and sash.",
       },
       {
         h: "Something Different",
-        p: "This project took many hours but it was 110% worth it, and it was fun to do a \"full stack\" craft that started as a computer model and ended as a piece of jewelery. Just like with different coding frameworks, I like trying new mediums and I learn pretty quickly.",
+        p: "It was fun to do a \"full stack\" craft that started as a computer model and ended as a piece of jewelery. Just like with different coding frameworks, I like trying new mediums and I learn pretty quickly.",
         img: "ZEN-1.JPG",
         c: "Close up of the brass orb"
       },
       {
         img: "ZEN-2.png",
-        c: "3D render"
-      },
-      {
-        img: "ZEN-3.jpg",
-        c: "Bonus pic: Overwatch watercolor. Rare for me to do an entirely non-digital piece but this one was a lot of fun and I like how it turned out."
+        c: "Render of my 3D model"
       },
     ],
   },
@@ -710,7 +729,7 @@ function Header(){
     <header className="foreground">
       <div className="body">
         <img className="logo" alt="" src={require("./images/branding/logo.png")}/>
-        <span className="portfolio-title">Made by Rob Q</span>
+        <h3 className="portfolio-title">Made by Rob Q</h3>
       </div>
     </header>
   );
