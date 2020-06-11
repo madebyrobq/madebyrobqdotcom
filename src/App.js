@@ -120,6 +120,10 @@ var projects = [
     cover: "CC-newpromo.png",
     article: [
       {
+        h: "Follow me on Twitter for the most up to date information about Climber Crew",
+        b: {text: "@RobQuiiinn", link: "https://twitter.com/RobQuiiinn"}
+      },
+      {
         img: "CC-newpromo.png",
         c: "A recent screenshot of Climber Crew. Follow me on Twitter for the most up-to-date content."
       },
