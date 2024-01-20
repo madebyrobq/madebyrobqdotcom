@@ -461,7 +461,7 @@ section{
 @media all and (min-width: 760px){
   .contactlinks{
     width: 100%;
-    max-width: 500px;
+    max-width: 200px;
   }
 }
 .buttonbox{
