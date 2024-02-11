@@ -68,7 +68,7 @@ function Card(props){
   var p = projects.find(function(proj){return proj.sku === props.sku; });
   return(
     <div className="cardcontainer">
-        <div className="card foreground rounded16 shadow3D lightborder">
+        <div className="card foreground rounded16 shadow3D">
           {p.banner && <Banner banner={p.banner}/>}
           <div className="roundedmask rounded16">
             <Cover project={p}/>
@@ -98,9 +98,9 @@ function Cover(props){
     <div className="cover">
       <img className="thumb" alt="" src={require("./images/products/screens/" + p.cover)}/>
       <div className="cover-details-container">
-        <h4>{p.subtitle}</h4>
+        <h4>{p.topic}</h4>
         <h3>{p.title}</h3>
-        {p.icon && <img className="app-icon lightborder" alt="" src={require("./images/products/icons/" + p.sku + ".png")}/>}
+        {p.icon && <img className="app-icon" alt="" src={require("./images/products/icons/" + p.sku + ".png")}/>}
         <h5>{p.short}</h5>
       </div>
     </div>
@@ -110,7 +110,7 @@ function Cover(props){
 function Content(props){
   var p = props.project;
   return(
-    <div className="content rounded16-top lightborder midground shadow3D static">
+    <div className="content rounded16-top midground shadow3D static">
       <div className="close" onClick={closeCard}></div>
       <div className="scroll-content">
         <Cover project={p}/>
@@ -149,30 +149,37 @@ function Projects(){
     <div className="bodymask">
       <div className="body">
         <section>
-          <h3 className="section-title">Welcome</h3>
-          <h4 className="section-subtitle">Here's a collection of my best work</h4>
+          <h3 className="section-title">Featured</h3>
+          <h4 className="section-subtitle">Get to know me and my work</h4>
         </section>
         <div className="cards">
           <Card sku="About"/>
-          <Card sku="CC"/>
-          <Card sku="RecRoom"/>
         </div>
 
         <section>
-          <h3 className="section-title">College (2014&nbsp;-&nbsp;2018)</h3>
+          <h3 className="section-title">Rec Room (2018&nbsp;&ndash;&nbsp;Present)</h3>
+          <h4 className="section-subtitle">Just a few of my favorite projects</h4>
+          <Card sku="RR-Social"/>
+          <Card sku="RR-Vision"/>
+          <Card sku="RR-Creation"/>
+          <Card sku="RR-AR"/>
+          <Card sku="RR-2018"/>
+        </section>
+        
+        <section>
+          <h3 className="section-title">College (2014&nbsp;&ndash;&nbsp;2018)</h3>
           <h4 className="section-subtitle">Hackathons and Class Projects</h4>
         </section>
         <div className="cards">
+          <Card sku="CC"/>
           <Card sku="DOGS"/>
           <Card sku="BOT"/>
           <Card sku="GEO"/>
-          <Card sku="CAR"/>
-          <Card sku="RR"/>
           <Card sku="REVERSI"/>
         </div>
 
         <section>
-          <h3 className="section-title">Kyanite Games, Inc. (2011&nbsp;-&nbsp;2015)</h3>
+          <h3 className="section-title">Kyanite Games, Inc. (2011&nbsp;&ndash;&nbsp;2015)</h3>
           <h4 className="section-subtitle">My first self-published games</h4>
         </section>
         <div className="cards">
@@ -187,6 +194,7 @@ function Projects(){
           <h4 className="section-subtitle">Art, crafts, keyboards</h4>
         </section>
         <div className="cards">
+          <Card sku="KEY"/>
           <Card sku="MV"/>
           <Card sku="ZEN"/>
         </div>
@@ -198,7 +206,7 @@ function Projects(){
         <div className="contactlinks">
           <Button text="Email me" link="mailto:rob@angle.fish"/>
           <Button text="Instagram" link="https://instagram.com/madebyrobq"/>
-          <Button text="f.k.a. twitter, may be hiding from bots" link="https://twitter.com/madebyrobq"/>
+          <Button text="f.k.a. twitter (may be hiding from bots)" link="https://twitter.com/madebyrobq"/>
         </div>
       </div>
     </div>
@@ -218,15 +226,15 @@ function Header(){
 
 function currentYear(){
   var currentYear = new Date().getFullYear();
-  return currentYear > 2018 ? currentYear : 2018;
+  return currentYear > 2024 ? currentYear : 2024;
 }
 
 function Footer(){
   return(
-    <footer className="foreground">
-      <div className="body">
-        <p>&copy; {currentYear()} Robert Quinn. All Rights Reserved. App Store is a service mark of Apple, Inc. iPhone, iPad, and Apple TV are trademarks of Apple Inc. Google Play and the Google Play logo are trademarks of Google Inc.</p>
-        <p>Last updated May 2020</p>
+    <footer className="">
+      <div className="body footer">
+        <p>&copy; {currentYear()} Robert Quinn</p>
+        <p>Last updated Feb 2024</p>
       </div>
     </footer>
   );
