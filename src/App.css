@@ -451,7 +451,7 @@ section{
 }
 
 .contactlinks{
-  width: 100%;
+  width: auto;
   max-width: 400px;
   margin: auto;
   display: flex;
@@ -470,7 +470,7 @@ section{
 .button{
   display: block;
   margin: auto;
-  width: 100%;
+  width: 80%;
   max-width: 500px;
   padding: 20px;
   border-radius: 6px;

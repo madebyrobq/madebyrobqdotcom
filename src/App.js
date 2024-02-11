@@ -206,7 +206,7 @@ function Projects(){
         <div className="contactlinks">
           <Button text="Email me" link="mailto:rob@angle.fish"/>
           <Button text="Instagram" link="https://instagram.com/madebyrobq"/>
-          <Button text="f.k.a. twitter (may be hiding from bots)" link="https://twitter.com/madebyrobq"/>
+          <Button text="twitter (RIP)" link="https://twitter.com/madebyrobq"/>
         </div>
       </div>
     </div>
