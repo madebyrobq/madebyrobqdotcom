@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.5f86c9c1.chunk.css",
-    "main.js": "/static/js/main.bbec5082.chunk.js",
-    "main.js.map": "/static/js/main.bbec5082.chunk.js.map",
+    "main.js": "/static/js/main.c58578d5.chunk.js",
+    "main.js.map": "/static/js/main.c58578d5.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/js/2.447d2fd3.chunk.js": "/static/js/2.447d2fd3.chunk.js",
     "static/js/2.447d2fd3.chunk.js.map": "/static/js/2.447d2fd3.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2cde49a67b2e0e78468ba6b25b575df7.js": "/precache-manifest.2cde49a67b2e0e78468ba6b25b575df7.js",
+    "precache-manifest.74f818fb95b41523a433df85ee8ae15d.js": "/precache-manifest.74f818fb95b41523a433df85ee8ae15d.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.5f86c9c1.chunk.css.map": "/static/css/main.5f86c9c1.chunk.css.map",
     "static/media/AROUND.jpeg": "/static/media/AROUND.51911df3.jpeg",
@@ -71,6 +71,6 @@
     "static/media/ZEN-2.png": "/static/media/ZEN-2.0e904789.png",
     "static/media/ZEN-3.jpg": "/static/media/ZEN-3.52efade2.jpg",
     "static/media/bowling-Kiwi2020.jpg": "/static/media/bowling-Kiwi2020.3a19d0ef.jpg",
-    "static/media/logo.png": "/static/media/logo.f6c6c249.png"
+    "static/media/logo.png": "/static/media/logo.1e0807be.png"
   }
 }

@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "45984de840275a708bb664f632c8497e",
+    "revision": "b37574b7bf1e82509e9631507ecfa460",
     "url": "/index.html"
   },
   {
-    "revision": "f06bdd71b4ce2649c5a7",
+    "revision": "79478fca3d35f1bb6c30",
     "url": "/static/css/main.5f86c9c1.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.447d2fd3.chunk.js"
   },
   {
-    "revision": "f06bdd71b4ce2649c5a7",
-    "url": "/static/js/main.bbec5082.chunk.js"
+    "revision": "79478fca3d35f1bb6c30",
+    "url": "/static/js/main.c58578d5.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -280,7 +280,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/bowling-Kiwi2020.3a19d0ef.jpg"
   },
   {
-    "revision": "f6c6c249dd79545512bf4c760f2b1c4c",
-    "url": "/static/media/logo.f6c6c249.png"
+    "revision": "1e0807be8bb8b7c1302974924c7e1515",
+    "url": "/static/media/logo.1e0807be.png"
   }
 ]);
