@@ -2,7 +2,7 @@ export const projects = [
     {
         sku: "About",
         title: "Hi, I'm Rob Quinn",
-        topic: "About Me",
+        topic: "About",
         short: "Allow me to introduce myself",
         icon: "",
         cover: "aboutme.jpeg",
@@ -586,7 +586,7 @@ export const projects = [
     },
     {
         sku: "MV",
-        title: "Monument Valley",
+        title: "Monument Valley Ornament",
         topic: "3D Modeling",
         short: "Impossible geometry\u2014made possible",
         icon: "",

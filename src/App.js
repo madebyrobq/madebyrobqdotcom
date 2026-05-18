@@ -153,7 +153,7 @@ function Projects(){
         </div>
 
         <section>
-          <h3 className="section-title">Rec Room (2018&ndash;2026)</h3>
+          <h3 className="section-title">Rec Room (2018&#8288;&ndash;&#8288;2026)</h3>
           <h4 className="section-subtitle">Just a few of my favorite projects</h4>
           <Card sku="RR-Social"/>
           <Card sku="RR-Vision"/>
@@ -163,7 +163,7 @@ function Projects(){
         </section>
         
         <section>
-          <h3 className="section-title">College Era (2014&ndash;2018)</h3>
+          <h3 className="section-title">College Era (2014&#8288;&ndash;&#8288;2018)</h3>
           <h4 className="section-subtitle">Learning by doing</h4>
         </section>
         <div className="cards">
@@ -175,7 +175,7 @@ function Projects(){
         </div>
 
         <section>
-          <h3 className="section-title">Kyanite Games (2011&ndash;2015)</h3>
+          <h3 className="section-title">Kyanite Games (2011&#8288;&ndash;&#8288;2015)</h3>
           <h4 className="section-subtitle">My first self-published games</h4>
         </section>
         <div className="cards">
