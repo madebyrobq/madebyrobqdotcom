@@ -67,7 +67,7 @@ function Button(props){
 function Card(props){
   var p = projects.find(function(proj){return proj.sku === props.sku; });
   return(
-    <div className="cardcontainer">
+    <div className={"cardcontainer " + p.sku}>
         <div className="card foreground rounded16 shadow3D">
           {p.banner && <Banner banner={p.banner}/>}
           <div className="roundedmask rounded16">
