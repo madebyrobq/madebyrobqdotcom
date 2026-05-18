@@ -148,16 +148,16 @@ function Projects(){
   return(
     <div className="bodymask">
       <div className="body">
-        <section>
+        {/*<section>
           <h3 className="section-title">Featured</h3>
           <h4 className="section-subtitle">Get to know me and my work</h4>
-        </section>
+        </section>*/}
         <div className="cards">
           <Card sku="About"/>
         </div>
 
         <section>
-          <h3 className="section-title">Rec Room (2018&nbsp;&ndash;&nbsp;Present)</h3>
+          <h3 className="section-title">Rec Room (2018&ndash;2026)</h3>
           <h4 className="section-subtitle">Just a few of my favorite projects</h4>
           <Card sku="RR-Social"/>
           <Card sku="RR-Vision"/>
@@ -167,7 +167,7 @@ function Projects(){
         </section>
         
         <section>
-          <h3 className="section-title">College (2014&nbsp;&ndash;&nbsp;2018)</h3>
+          <h3 className="section-title">College Era (2014&ndash;2018)</h3>
           <h4 className="section-subtitle">Hackathons and Class Projects</h4>
         </section>
         <div className="cards">
@@ -179,7 +179,7 @@ function Projects(){
         </div>
 
         <section>
-          <h3 className="section-title">Kyanite Games, Inc. (2011&nbsp;&ndash;&nbsp;2015)</h3>
+          <h3 className="section-title">Kyanite Games (2011&ndash;2015)</h3>
           <h4 className="section-subtitle">My first self-published games</h4>
         </section>
         <div className="cards">
@@ -191,22 +191,20 @@ function Projects(){
 
         <section>
           <h3 className="section-title">Hobby Projects</h3>
-          <h4 className="section-subtitle">Art, crafts, keyboards</h4>
+          <h4 className="section-subtitle">Art and hardware</h4>
         </section>
         <div className="cards">
           <Card sku="KEY"/>
           <Card sku="MV"/>
-          <Card sku="ZEN"/>
         </div>
 
         <section>
           <h3 className="section-title">Contact</h3>
-          <h4 className="section-subtitle">Say hi, ask me anything</h4>
+          <h4 className="section-subtitle">Say hi, ask me anything, hire me?</h4>
         </section>
         <div className="contactlinks">
-          <Button text="Email me" link="mailto:rob@angle.fish"/>
+          <Button text="hello@madebyrobq.com" link="mailto:hello@madebyrobq.com"/>
           <Button text="Instagram" link="https://instagram.com/madebyrobq"/>
-          <Button text="twitter (RIP)" link="https://twitter.com/madebyrobq"/>
         </div>
       </div>
     </div>
@@ -215,10 +213,10 @@ function Projects(){
 
 function Header(){ 
   return(
-    <header className="foreground">
+    <header className="">
       <div className="body">
         <img className="logo" alt="" src={require("./images/branding/logo.png")}/>
-        <h3 className="portfolio-title">made by Rob Q</h3>
+        <h3 className="portfolio-title">Made by Rob Q</h3>
       </div>
     </header>
   );
@@ -226,7 +224,7 @@ function Header(){
 
 function currentYear(){
   var currentYear = new Date().getFullYear();
-  return currentYear > 2024 ? currentYear : 2024;
+  return Math.max(currentYear, 2026);
 }
 
 function Footer(){
@@ -234,7 +232,7 @@ function Footer(){
     <footer className="">
       <div className="body footer">
         <p>&copy; {currentYear()} Robert Quinn</p>
-        <p>Last updated Feb 2024</p>
+        <p>Last updated May 2026</p>
       </div>
     </footer>
   );

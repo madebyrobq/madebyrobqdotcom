@@ -5,17 +5,18 @@ export const projects = [
         topic: "About Me",
         short: "Allow me to introduce myself",
         icon: "",
-        cover: "AboutMe.png",
+        cover: "aboutme.jpeg",
         article: [
             {
                 h: "Who are you?",
-                p: "I'm a \"computery guy\" who loves programming, design, 3D, physics, geometry, mobile, UX, mechanical keyboards, and most importantly - making games!",
+                p: "I'm a \"computery guy\" who loves programming, design, 3D, physics, geometry, mobile, UX, mechanical keyboards, and most importantly\u2014making games!",
             },
             {
-                p: "I got into programming by teaching myself and making my first game, Monster Roadkill Lite, which I published for iPhone way back in 2011. Since then, I self-published many more games for several different platforms and started my own company, Kyanite Games.",
+                h: "A little history",
+                p: "I got into programming by teaching myself and making my first game, Monster Roadkill Lite, which I published for iPhone way back in 2011. Since then, I self-published many more games for several different platforms and started my own company, Kyanite Games, Inc.",
             },
             {
-                p: "I studied Software Engineering at Iowa State, during which I also participated in over 10 hackathons, and helped organize events for HackISU and Digital Women Code Camp. After graduating in 2018, I moved to Seattle to work at Rec Room (which was called Against Gravity at the time).",
+                p: "I studied Software Engineering at Iowa State University, during which I also participated in over 10 hackathons, and helped organize events for HackISU and Digital Women Code Camp. After graduating in 2018, I moved to Seattle to work at Rec Room (which was called Against Gravity at the time).",
             },
             {
                 h: "What are these projects?",
@@ -35,12 +36,12 @@ export const projects = [
         cover: "Rec-1.jpg",
         article: [
             {
-                h: "What is Rec Room?",
-                p: "Rec Room is an online universe where you can hang out with your friends and play thousands of games like paintball, disc golf, and quests. Users can make custom \"Rooms\" and games of their own while playing together.",
+                h: "What's Rec Room?",
+                p: "Rec Room was an online universe where you can hang out with your friends and play thousands of games like paintball, disc golf, and quests. Users could make custom \"Rooms\" and games of their own while playing together.",
             },
             {
-                h: "First few months (2018)",
-                p: "I started at Rec Room in summer 2018 as a Game Engineer. At the time, the company was only 20 people so in the first few months I had the opportunity to work on just about every part of the app, from making new laser guns to radio voice communication to procedural geometry and the early prototype & ongoing work to bring Rec Room from VR-only to a cross platform game on flat screens like PC, PS4, and eventually iPhone and iPad and many more platforms.",
+                h: "First few months",
+                p: "I started at Rec Room in summer 2018 as a Game Engineer. At the time, the company was only 20 people so in the first few months I had the opportunity to work on just about every part of the app, from new laser guns, to radio voice communication, to bowling and dungeons and so much more. I also focused heavily on the early prototype & ongoing work to bring the Rec Room gameplay experience from VR-only to a fully cross-platform game on flat screens like PC, PS4, and eventually iPhone and iPad and many more platforms.",
             },
             {
                 img: "Rec-3.jpg",
@@ -56,7 +57,7 @@ export const projects = [
             },
             {
                 h: "Looking back",
-                p: "As of 2023, I have seen the company more than 10x in size and over 3x in platforms, which is pretty crazy to think about, and it's changed a lot since then. But I always keep a focus on cross-platform design/controls/interactions, mechanics/game feel, and platform-specific delights.",
+                p: "Well, Rec Room has come to its end (closing and shutting down on June 1, 2026), but it has been an incredible 8 years, going from hire 20 to a coworker of 300, from 3 VR-exclusive platforms to over a dozen platforms, and having the opportunities & autonomy to work on a wide variety of things I am very passionate about. For a while, we got to build a community, and a place that was really meaningful to a lot of people, and that's pretty cool.",
             },
         ],
     },
@@ -69,12 +70,8 @@ export const projects = [
         cover: "RRARAppleFeature-small.JPG",
         article: [
             {
-                h: "iPhone + AR (2020 - now deprecated)",
-                p: "Note: All AR features are deprecated in Rec Room as of late 2022, but they were cool at the time!",
-            },
-            {
-                h: "",
-                p: "In the early days of Rec Room I also worked on several fun AR features for the iPhone. First was the ability to take selfies using ARKit, where the avatar would copy your real head position and facial expressions, similar to Apple's Memoji. Since Rec Room's faces use discrete sprites instead of rigged 3D models I made a system to weigh all the facial parameters and determine what the closest matching expression was.",
+                h: "iPhone + AR",
+                p: "In the early days of Rec Room I also worked on several fun AR features for the iPhone. First was the ability to take selfies using ARKit, where the avatar would copy your real head position and facial expressions, similar to Apple's Memoji. Since Rec Room's faces use discrete sprites instead of rigged 3D models, I made a system to weigh all the facial parameters and determine the closest matching expression.",
                 img: "ARSelfie.gif",
                 c: "Face tracking while taking a selfie"
             },
@@ -86,13 +83,13 @@ export const projects = [
             },
             {
                 img: "RRARAppleFeature.JPG",
-                c: "Apple did a feature specifically on the AR features!"
+                c: "Apple featured Rec Room specifically for multiplayer AR!"
             },
         ],
     },
     {
         sku: "RR-Creation",
-        title: "Creation on iPad",
+        title: "Creation Tools",
         topic: "Cross-Platform",
         short: "Tools to empower mobile creators",
         icon: "",
@@ -100,17 +97,17 @@ export const projects = [
         article: [
             {
                 h: "Finding potential on mobile",
-                p: "On my own time I've created several rooms in-game using our User Generated Content tools. It's a great way to get context on how it works, what it needs, and the connection to the rest of the ecosystem.",
+                p: "On my own time I've created several rooms in-game using our User-Generated-Content tools. It's a great way to get context on how it works, what it needs, and the connection to the rest of the ecosystem.",
             },
             {
-                p: "Prior to 2020, creation in Rec Room was still heavily VR-focused, Screens was an afterthought, and mobile specifically was barely in the picture at all. In general I love using an iPad and I'd rather create something there than in VR. So by creating rooms on a flat-screen platform I could find the limitations and what we needed to actually make it viable, and even started to implement changes I needed myself.",
+                p: "Since Rec Room started out as a VR-only game, and most of the top creators were in VR, the majority of the creation experience was tailored for them and not a great fit for flat-screen platforms\u2014especially small mobile screens. The iPad is such a fun creative device to me, and by using it to create my own rooms I could find the limitations, identify changes to make it more viable, and then go implement changes I needed myself!",
             },
             {
                 img: "RR-Pride-1.JPG",
                 c: "Working on \"PRIDEfest\" on iPad. I created this room in 2020 as a way to celebrate Pride month when it could not happen in person due to the pandemic.",
             },
             {
-                h: "Empowering mobile & Screens creation (2021)",
+                h: "Empowering mobile & Screens creation",
                 p: "With all of the context and interest I had accumulated in mobile creation, it eventually became my full time job for a while!",
             },
             {
@@ -123,11 +120,11 @@ export const projects = [
                 p: "For mobile specifically, I added a bunch more features to make input faster and more natural, including direct tap/drag controls for all creation operations, and Apple Pencil support to run operations anywhere on screen, with pressure sensitivity.",
             },
             {
-                h: "My Room Showcase",
+                h: "My Room showcase",
             },
             {
                 img: "RR-Pride-2.jpeg",
-                c: "The team liked my room and decided to use it to launch Pride avatar items in 2020 and 2021. Apple also featured Rec Room for Pride month using my room - created entirely on iPad - as key art!",
+                c: "The team liked my room and decided to use it to launch Pride avatar items in 2020 and 2021. Apple also featured Rec Room for Pride month using my room\u2014created entirely on iPad\u2014as key art!",
             },
             {
                 img: "RR-Glass-1.JPG",
@@ -149,21 +146,21 @@ export const projects = [
         article: [
             {
                 img: "RR-waving-rc.jpg",
-                c: "Expressive waving controls still going strong in 2024. We've used data to prove that expressive waving is essential for new players to make social connections and retain in the app, by comparing to players who could not wave or instead had a pre-recorded wave animation like is typical in most games."
+                c: "Expressive waving is essential for new players to make social connections and retain in the app. We've proven it to have double-digit % impact by comparing to players who could not wave or instead had a pre-recorded wave animation like is typical in most games."
             },
             {
-                h: "Social Magic on the iPhone (2019)",
-                p: "I have always had a focus on Rec Room's cross-platform controls, interactions, and UI, not just as a typical game, but also as a social sandbox.",
+                h: "Bringing \"Social Magic\" through on mobile",
+                p: "My main focus at Rec Room was always around the cross-platform controls, interactions, and UX, not just as a typical game, but also as a social sandbox.",
             },
             {
-                p: "Rec Room in VR just makes sense because of the way VR affords a physical presence, can be infinitely expressive, and is fun to interact with. The early version of our flat-screen players didn't have nearly the same degree of freedom to express themselves, so they came off as very robotic and unpleasant to be around to our VR audience.",
+                p: "Rec Room in VR just made sense because of the way VR affords a physical presence, can be infinitely expressive, and is fun to interact with. The early version of our flat-screen players didn't have nearly the same degree of freedom to express themselves, so they came off as very robotic and unpleasant to be around to our VR audience.",
             },
             {
                 p: "Given a fairly broad prompt to \"make flat-screen players better social playmates,\" I designed and implemented some really fun features that make expressing yourself on a phone, console, or PC much more delightful:",
             },
             {
                 img: "Waving.gif",
-                c: "Non-VR players can now express themselves with full control over the motion, rhythm, and intensity using analog inputs"
+                c: "Non-VR players can now express themselves with full control over the motion, rhythm, and intensity using analog inputs, rather than a single pre-recorded animation"
             },
             {
                 img: "DanceMode.gif",
@@ -189,7 +186,7 @@ export const projects = [
         article: [
             {
                 h: "Rec Room in the Apple Vision Pro reveal",
-                p: "At the WWDC23 keynote, Apple unveiled the Vision Pro to the world. You might have noticed that Rec Room made an appearance, and I had the incredibly lucky and rare opportunity of working on it!",
+                p: "At the WWDC23 keynote, Apple unveiled the Vision Pro to the world. You might have noticed that Rec Room made an appearance, and I had the incredibly lucky and rare opportunity of working on this demo!",
                 img: "RR-VP-1.png",
                 c: "Look Gary, there I am!",
             },
@@ -198,6 +195,9 @@ export const projects = [
                 img: "RR-VP-2.jpg",
                 c: "Definitely an upgrade from Rec Room's old mitten hands",
                 b: { text: "Apple: Bring your Unity VR app to a fully immersive space", link: "https://developer.apple.com/videos/play/wwdc2023/10093/" }
+            },
+            {
+                p: "Images above from Apple",
             },
         ],
     },
@@ -215,31 +215,36 @@ export const projects = [
             },
             {
                 h: "Origins",
-                p: "I started this project called \"Climbing Simulator\" at HackISU in Fall 2015, where it was a crowd favorite and something I knew I had to continue. I have been working on it in my free time (what little there was between classes and now a full time game industry job) and will publish it \"when it's done.\" Here are some reasons I'm proud of it and also why it is taking so long to make:",
+                p: "I started this project called \"Climbing Simulator\" at HackISU in Fall 2015, where it was a crowd favorite and something fun I would continue to work on in my free time.",
                 img: "CC-4.PNG",
                 c: "From the first weekend of development"
             },
             {
-                h: "Detailed, Nuanced Movement",
-                p: "Smooth motion and floppy physics are at the core of the gameplay, while also keeping the game accessible.",
+                h: "Intuitive, familiar controls",
+                p: "At the core of the gameplay are the simple yet nuanced drag-and-drop controls. All it takes is one touch anywhere on the screen, and you can precisely ease over to the next hold, or dynamically fling yourself to the finish.",
             },
             {
-                p: "Most physics games are either 1) just a hidden capsule player with a ragdoll being pulled around with it, or 2) raw and unassisted physics that are meant to be incredibly difficult and unforgiving. I too started out using simple invisible springs to pull the player through the air, but I decided there had to be a better solution that was physically accurate and nuanced, yet intentional and approachable.",
+                p: "Swiping your way up the wall is a very similar motion to scrolling through an app or webpage, so mobile users should find it very natural and familiar.",
             },
             {
-                p: "My latest solution is to use inverse kinematics to calculate how the climber's body should pose to reach its target, and then applies torques to each limb. Since all of the forces come from \"inside\" the climber's body, like actual muscles, it feels very realistic, but the inverse kinematics also allow for precise intent over where you place their hands.",
+                h: "Balancing physics",
+                p: "As a physics-based game, it should be fun and floppy, but I still wanted the game to be accessible. Most games in the genre are either:",
             },
             {
-                h: "Simple Tested Controls",
-                p: "The controls has been reduced to simple drag-and-drop anywhere on the screen. In fact, it is a very familiar movement to scrolling through a webpage, so mobile users should find it very natural.",
+                p: "1) faked or decorative, like a ragdoll being pulled around while the player is actually just an invisible capsule",
+            },
+            {
+                p: "2) or raw and unassisted physics which are meant to be incredibly difficult and unforgiving",
+            },
+            {
+                p: "After several iterations, I managed to find an approach that maintains both of my goals of feeling truly and delightfully physical, without sacrificing usability for casual players.",
+            },
+            {
+                p: "By using Inverse Kinematics, I calculate how the climber's body should pose to reach its intended target, then I apply torque to match that pose. Since all of the torque forces come from \"inside\" the climber's body, like actual muscles (as opposed to a giant invisible spring pulling the body), it feels very realistic while intuitively matching the player's intent.",
             },
             {
                 h: "Multiplayer",
-                p: "Race your friends up the wall with split-screen multiplayer. You can also punch each other and see who stays on the longest.",
-            },
-            {
-                h: "Lots of Art",
-                p: "I'm making all the 3D models myself, which is fun but time consuming.",
+                p: "Split-screen multiplayer was a feature from early on, and it even works on iPad (where you can play side-by-side or head-to-head). I have started a number of multiplayer modes like racing, survival, and co-op.",
             },
         ],
     },
@@ -255,7 +260,7 @@ export const projects = [
             {
                 h: "Machine Learning with Genetic Algorithms",
                 p: "This project was made in one weekend at HackISU in Fall 2016 where it won first place. It simulates physics-based dogs that learn to walk using a genetic algorithm. The dogs have muscles that are powered by a sinewave with parameters for frequency, amplitude, offset, and center. By randomly mutating and combining the values, they figure out which values work best to walk forward. The best dog gets saved and is the parent of the next generation.",
-                img: "AboutMe.png",
+                img: "hackisuf165.jpg",
                 c: "I lead the project, helping my teammates learn Unity for the first time, and worked with a bio pre-medical illustration student to determine the physicality and muscle range of the dogs"
             },
             {
@@ -373,17 +378,17 @@ export const projects = [
         banner: {award: "1st Place", event: "HackISU Spring 2016"},
         article: [
             {
-                h: "First Hackathon Win",
+                h: "First Hackathon win",
                 p: "This project was made in one weekend for HackISU in Spring 2016 where it won first place. It is a game that teaches programming to kids (but is fun for all ages!). During demos a kid who was no more than 10 years old tried it out and loved it! His parents had a hard time getting him away from the iPad, so I consider this project a huge success.",
             },
             {
-                h: "Build a Robot",
+                h: "Build a robot",
                 p: "First you make a robot out of cube-shaped blocks. Kids love block building and crafting games so it was a great way to get them interested. Blocks include propellers, lights, and sensors that can be programmed.",
                 img: "BOT-1.png",
                 c: "Build a flying robot out of blocks"
             },
             {
-                h: "Build the Code",
+                h: "Build the code",
                 p: "The program for the robot is also made of blocks which makes it easy to visualize. There are code blocks to run the propellers, do 'if' statements for sensors, loop, wait, and more. When you press play the robot runs the code and the code block that is currently running is highlighted so you can literally follow the code being run.",
                 img: "BOT-2.png",
                 c: "Program your robot using code blocks and watch it run"
@@ -403,7 +408,7 @@ export const projects = [
         cover: "CAR-1.png",
         article: [
             {
-                h: "Augmented Reality Windshield",
+                h: "Augmented Reality windshield",
                 p: "cAR, made for HackISU Spring 2017, shows the potential of AR for cars. An overlay is projected up onto the windshield which highlights obstacles, signs, and paths that are gathered from a self-driving car's existing sensors. Self-driving cars could be safer if the person in the front seat can clearly see what the car sees and what it will do next, and if they need to intervene. This also has applications for assisting human drivers by showing them obstacles they might otherwise miss.",
                 img: "CAR-1.png",
                 c: "Projecting onto the windshield to show path (green) and obstacles (red)"
@@ -433,13 +438,13 @@ export const projects = [
         cover: "AROUND.jpeg",
         article: [
             {
-                h: "Augmented Reality Navigation",
+                h: "Augmented Reality navigation",
                 p: "This project was made for CrimsonU internal hackathon. It is used to map out floors of buildings such as hospitals and give directions to a specific room or patient. Navigation is shown with a moving dotted line on the floor, which users can see through their iPad with the help of Apple's new (in beta at the time) ARKit. This project is designed to extend an existing product used for conducting surveys around the hospital, which is often done by volunteers who have limited knowledge of the building and could work much more efficiently with AR guided directions.",
                 img: "AROUND.jpeg",
                 c: "Guided directions to the next patient"
             },
             {
-                h: "New Tech, New Problems to Solve",
+                h: "New tech, new problems to solve",
                 p: "Apple ARKit will be huge for AR due to the relatively low cost, already popular devices, and ease of use, but it is not without challenges. When the app starts the position and rotation of the world change, so it would have to be started in the exact same position and rotation. To fix this we use the compass from Apple Core Motion to align the world so it doesn't matter how we start and it adjusts automatically. Another challenge was how to make the map and navigation data. We had floor plans and tried measuring it out, but a better solution we implemented was a mapping tool so the whole floor can be mapped out on the iPad alone, exported, and reused later.",
             },
         ],
@@ -456,19 +461,19 @@ export const projects = [
                 p: "Computational Geometry was one of my favorite classes. I really enjoy geometry, vector math, and mesh processing. This class had some of the most interesting algorithms and has earned a spot on my portfolio.",
             },
             {
-                h: "Points to Polys to Triangles",
+                h: "Points to polys to triangles",
                 p: "The goal of this assignment was to convert a point cloud into a Doubly Connected Edge List (DCEL) which represents a mesh using edges, points, and faces. First, the points are made into an outer hull which is a polygon with one face. Second, the polygon is made Y-monotone, meaning traveling counter-clockwise on the left side and clockwise on the right sides never has an edge that is directed up. If an edge is directed up, it needs to be sliced based on the stack of corner vertices (different slice behavior depending on normal, merge, split, start, and end vertices). Finally, the polygon is in Y-monotone chunks that are triangulated, with checks to preserve the manifold shape (again, based on vertex types). Now we have a fully triangulated DCEL. Triangulation is done in n log n time where the longest step is sorting.",
                 img: "GEO-1.png",
                 c: "A triangulated mesh"
             },
             {
-                h: "Coding Extra Tools to Save Time Later",
+                h: "Extra validation tools",
                 p: "To output our mesh, we were required to print a list of each vertex, edge, face, and their connected components. This takes quite a long time to draw out on paper and check the answer. To make my life easier, I wrote a .obj exporter, which would make a 3D file of my mesh and I could tell within a few seconds if it was correct. I am certain I saved many hours of drawing polygons out by hand by writing this tool, and I was the only student who had ever done this for the assignment. I also have far more confidence with my algorithm's accuracy because I could test significantly larger point clouds with ease, therefore testing more edge cases that only show up in uniquely shaped polygons with many points and hundreds of component references.",
                 img: "GEO-2.png",
                 c: "All components for ONE triangle printed in the terminal"
             },
             {
-                h: "Point Location Data Structure",
+                h: "Point location data structure",
                 p: "The last part of this project was to query a coordinate and return what edge, face, or vertex the coordinate was located on. The data structure for querying points is a persistent binary tree. It is constructed by doing a planar sweep of edges, and makes a binary tree at the 'time' of that edge. Binary trees can have multiple entry points to the same sub-trees and get 'pruned' which reuses existing sub-trees from the previous binary tree, as long as the same sub-tree structure is still in the buffer. This persistence and reuse of sub-trees results in a smaller data structure of approximately n log n in size. A coordinate can be queried for the vertex, edge, or face that contains it in log n time by binary search. Queries are given 3D markers and exported with the .obj mesh.",
                 img: "GEO-3.png",
                 c: "Query coordinates on the mesh"
@@ -484,13 +489,13 @@ export const projects = [
         cover: "RR-1.png",
         article: [
             {
-                h: "Making Games for HoloLens",
+                h: "Making games for HoloLens",
                 p: "Realm Raiders is a prototype for a Microsoft HoloLens game. It is a tower defense where the enemies are aliens that roll around the room. They come from another dimension so they can roll up the walls and onto the ceiling for a better path. The player gets turrets to set up around the room which can also be placed on walls and the ceiling. In addition to the code and learning a new platform, I also took this project as an opportunity to learn Autodesk Maya, with which I modeled and animated the rolly alien.",
                 img: "RR-1.png",
                 c: "My aliens boys roll out, unfold, and attack"
             },
             {
-                h: "Technical Challenges",
+                h: "Technical challenges",
                 p: "The biggest challenge was definitely making paths for the aliens to walk on. No built-in navmesh tool was suitable here, especially for going on the ceiling. I made a mesh processor which combines room scan meshes and puts nodes at vertices with a somewhat uniform density, and from there they make a custom navigation mesh which the aliens can use just fine with a pathfinding algorithm.",
                 img: "RR-2.png",
                 c: "Aliens and turrets on the walls and ceiling"
@@ -510,7 +515,7 @@ export const projects = [
                 p: "This project was to make an Ai for the board game reversi. It uses a minimax algorithm which searches moves up to a certain depth, and picks the next move that minimizes the human and maximizes the Ai score, assuming the human takes their best move. I can beat the Ai at a depth of 3 or 4 but after 7 I don't stand a chance.",
             },
             {
-                h: "Tracing its Steps",
+                h: "Tracing its steps",
                 p: "I implemented the game board as a connected graph which evaluated the board's state in place, rather than allocating a new 2D array of the board's state at every step of the search. This made my Ai significantly faster than other implementations and allowed me to push the depth of the search further. As the minimax algorithm reaches the depth of its search, it comes back up and draws a line over the tile on the board. When it gets back to the top you can see the entire thought process and where certain branches were decided against while others continue to the top.",
                 img: "REVERSI-2.png",
                 c: "The tree representing all moves to a depth of 3, colored lines represent the best move of the subtree and tick size represents score difference"
@@ -540,12 +545,12 @@ export const projects = [
         sku: "KEY",
         title: "Custom Mechanical Keyboards",
         topic: "Keyboards",
-        short: "From design to firmware to PCB",
+        short: "From design, to firmware, to PCB",
         icon: "",
         cover: "Valenciano-01.JPG",
         article: [
             {
-                h: "Hardware Hobby",
+                h: "Hardware hobby",
                 p: "I started getting into mechanical keyboards in 2019, and really got invested during 2020 while working from home. Since then, I've gone from building to customizing to custom designing, from the case down to the PCB hardware and firmware.",
             },
             {
@@ -558,19 +563,24 @@ export const projects = [
             },
             {
                 img: "Valenciano-01.JPG",
-                c: "My original architecture-inspired case"
+                c: "My original architecture-inspired design"
             },
             {
                 img: "Valenciano-02.JPG",
                 c: "Bottom showing distinctive triangular structure"
             },
             {
-                h: "Custom PCBA",
+                h: "Custom PCBA and CNC design",
                 p: "At some point there's a peak of how much customizing one can do, and the only thing left is to wire a keyboard from scratch, down to each tiny electronic component. I learned how to use KiCAD and designed a PCB with an integrated Raspberry Pi and hotswap switch sockets, and got it manufactured by JLCPCB.",
             },
             {
                 img: "PCBA-01.jpeg",
-                c: "Close-up preview of my first PCBA with Raspberry Pi integrated microcontroller. Need to finish a case for it, but the PCB itself works!"
+                c: "Close-up of the PCBA with Raspberry Pi integrated microcontroller"
+            },
+            {
+                img: "orthotkl.jpeg",
+                p: "Now to reveal the final product. The layout is a bit... unconventional (meant to look like a tenkeyless layout from a distance, but in a 30% ortholinear form factor). But most conventional keyboards exist already, so why not have some fun with it! I designed the case in Fusion 360 and got it CNC'd in aluminum. It has an integrated slot designed to hold an iPad mini.",
+                c: "My completely custom keyboard! And yes, I can type on it!"
             },
         ],
     },
@@ -578,19 +588,19 @@ export const projects = [
         sku: "MV",
         title: "Monument Valley",
         topic: "3D Modeling",
-        short: "Impossible geometry - made possible",
+        short: "Impossible geometry\u2014made possible",
         icon: "",
         cover: "MV-1.png",
         banner: {award: "1st Place", event: "Unity Community Art Challenge #4"},
         article: [
             {
-                h: "Monument Valley Ornament",
+                h: "Monument Valley ornament",
                 p: "Inspired by one of my favorite mobile games, I modeled this Monument Valley themed ornament for the Unity Community Art Challenge and won first place. It took many attempts to make the illusion convincing and not disfigured from other angles, but with some iteration and using a long focal length it turned out great. I also incorporated the Unity logo with the silver color which fits perfectly.",
                 img: "MV-1.png",
                 c: "Render of the Unity themed model"
             },
             {
-                h: "Physical Copy",
+                h: "Physical copy",
                 p: "It's a simple model, but it's elegant and effective. The illusion even holds up in real life, I got it 3D printed and painted it to match.",
                 img: "MV-2.jpg",
                 c: "3D printed & painted"
