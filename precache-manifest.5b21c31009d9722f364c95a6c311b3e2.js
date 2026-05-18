@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b37574b7bf1e82509e9631507ecfa460",
+    "revision": "e5055b21769623ba19b099a3a073ce77",
     "url": "/index.html"
   },
   {
-    "revision": "79478fca3d35f1bb6c30",
-    "url": "/static/css/main.5f86c9c1.chunk.css"
+    "revision": "2c64db943a546d029873",
+    "url": "/static/css/main.1694bf6e.chunk.css"
   },
   {
     "revision": "58efc7cc048bf7451d9f",
     "url": "/static/js/2.447d2fd3.chunk.js"
   },
   {
-    "revision": "79478fca3d35f1bb6c30",
-    "url": "/static/js/main.c58578d5.chunk.js"
+    "revision": "2c64db943a546d029873",
+    "url": "/static/js/main.b414563d.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -28,16 +28,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ARSelfie.e92b1550.gif"
   },
   {
-    "revision": "54316ec32dbb3c90728c5a606d4b92c9",
-    "url": "/static/media/AboutMe.54316ec3.png"
+    "revision": "153452d0aa550809d8540fa923411078",
+    "url": "/static/media/BOT-1.153452d0.png"
   },
   {
-    "revision": "eb438a9d21a61bbd0023b5d8ea4f0d8e",
-    "url": "/static/media/BOT-1.eb438a9d.png"
-  },
-  {
-    "revision": "e142468db51679a95cfea560bdc44e86",
-    "url": "/static/media/BOT-2.e142468d.png"
+    "revision": "b94fa4d655e273aa0d929234d01fe56b",
+    "url": "/static/media/BOT-2.b94fa4d6.png"
   },
   {
     "revision": "713bc719e980927506d5caf55af54d06",
@@ -264,6 +260,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ZEN-3.52efade2.jpg"
   },
   {
+    "revision": "8d83a85b6cb966c0326b03d18e804a3c",
+    "url": "/static/media/aboutme.8d83a85b.jpeg"
+  },
+  {
     "revision": "ec6edbfb4c337bb9346e4367795c9f2d",
     "url": "/static/media/banner-front.ec6edbfb.svg"
   },
@@ -280,7 +280,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/bowling-Kiwi2020.3a19d0ef.jpg"
   },
   {
-    "revision": "1e0807be8bb8b7c1302974924c7e1515",
-    "url": "/static/media/logo.1e0807be.png"
+    "revision": "1a3b4f27978f92c606504ba1aa3f5a2a",
+    "url": "/static/media/hackisuf165.1a3b4f27.jpg"
+  },
+  {
+    "revision": "3730c36bd0b6c42f9f7663780ee700e1",
+    "url": "/static/media/logo.3730c36b.png"
+  },
+  {
+    "revision": "db0aa91df9a2abba36faf5eb7a8f3180",
+    "url": "/static/media/orthotkl.db0aa91d.jpeg"
   }
 ]);
