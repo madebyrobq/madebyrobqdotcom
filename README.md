@@ -20,6 +20,8 @@ Setup package.json
     
 ## Run and deploy
 
+make sure github has permission to run from command line
+
 npm start
 
 npm run build
