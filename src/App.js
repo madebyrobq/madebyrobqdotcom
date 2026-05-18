@@ -148,10 +148,6 @@ function Projects(){
   return(
     <div className="bodymask">
       <div className="body">
-        {/*<section>
-          <h3 className="section-title">Featured</h3>
-          <h4 className="section-subtitle">Get to know me and my work</h4>
-        </section>*/}
         <div className="cards">
           <Card sku="About"/>
         </div>
@@ -168,14 +164,14 @@ function Projects(){
         
         <section>
           <h3 className="section-title">College Era (2014&ndash;2018)</h3>
-          <h4 className="section-subtitle">Hackathons and Class Projects</h4>
+          <h4 className="section-subtitle">Learning by doing</h4>
         </section>
         <div className="cards">
           <Card sku="CC"/>
           <Card sku="DOGS"/>
           <Card sku="BOT"/>
           <Card sku="GEO"/>
-          <Card sku="REVERSI"/>
+          {/*<Card sku="REVERSI"/>*/}
         </div>
 
         <section>
@@ -190,7 +186,7 @@ function Projects(){
         </div>
 
         <section>
-          <h3 className="section-title">Hobby Projects</h3>
+          <h3 className="section-title">Other Projects</h3>
           <h4 className="section-subtitle">Art and hardware</h4>
         </section>
         <div className="cards">

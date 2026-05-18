@@ -20,7 +20,7 @@ export const projects = [
             },
             {
                 h: "What are these projects?",
-                p: "These are just a few of my favorite projects I have made for work, as an indie developer, for school, hackathons, or just for fun!",
+                p: "These are just a few of my favorite projects I have made for work, as an indie developer, for school, hackathons / game jams, or just for fun!",
             },
             {
                 p: "This website itself is actually one of my projects, I made it using React and styled it taking inspiration from the iOS 11 App Store (which is fitting for my interest in iOS).",
@@ -204,8 +204,8 @@ export const projects = [
     {
         sku: "CC",
         title: "Climbing Simulator",
-        topic: "From hackathon to beyond",
-        short: "Rock climbing adventure",
+        topic: "Adventure",
+        short: "Rock climbing physics",
         icon: "",
         cover: "CC-newpromo.png",
         article: [
@@ -277,7 +277,7 @@ export const projects = [
     {
         sku: "PV",
         title: "Pack Van",
-        topic: "Endless Arcade Driving",
+        topic: "Arcade Racing",
         short: "Collect packages and dodge cars",
         icon: "y",
         cover: "PV.png",
@@ -302,7 +302,7 @@ export const projects = [
     {
         sku: "DI",
         title: "Dungeon Infinity",
-        topic: "Dungeon Crawler",
+        topic: "Action Adventure",
         short: "Procedurally generated levels",
         icon: "y",
         cover: "DI.jpg",
@@ -324,7 +324,7 @@ export const projects = [
     {
         sku: "NSS",
         title: "Ninja Star Survival",
-        topic: "Throw ninja stars",
+        topic: "Action",
         short: "A take on the 'tossing' genre",
         icon: "y",
         cover: "NSS.jpg",
@@ -346,7 +346,7 @@ export const projects = [
     {
         sku: "MR",
         title: "Monster Roadkill",
-        topic: "Zombies & Cars",
+        topic: "Racing Adventure",
         short: "The start of the adventure",
         icon: "y",
         cover: "MR.png",
@@ -458,7 +458,7 @@ export const projects = [
         cover: "GEO-1.png",
         article: [
             {
-                p: "Computational Geometry was one of my favorite classes. I really enjoy geometry, vector math, and mesh processing. This class had some of the most interesting algorithms and has earned a spot on my portfolio.",
+                p: "As one of my favorite topics, and for going above the requirements, I want to share this Computational Geometry class project.",
             },
             {
                 h: "Points to polys to triangles",
